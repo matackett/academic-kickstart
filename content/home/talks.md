@@ -16,6 +16,8 @@ list_format = 2
 
 +++
 
-*Using GitHub and RStudio to Facilitate Authentic Learning Experiences in a Regression Analysis Course*, JSM 2019 \[[slides](https://github.com/matackett/talks/blob/master/presentations/jsm2019-gh-rstudio-regression.pdf)\]
+[*Beyond the Buzzword: A Look at Data Science in Practice and How You Can be a Part of It*](*https://github.com/matackett/talks/blob/master/presentations/samsi-talk-oct2019.pdf), Diversity in Data Science & Machine Learning 2019
 
-*Using GitHub and RStudio to Facilitate Authentic Learning Experiences in a Regression Analysis Course*, USCOTS 2019 \[[poster](https://github.com/matackett/talks/blob/master/posters/uscots2019-gh-rstudio-regression.pdf)\]
+[*Using GitHub and RStudio to Facilitate Authentic Learning Experiences in a Regression Analysis Course*](https://github.com/matackett/talks/blob/master/presentations/jsm2019-gh-rstudio-regression.pdf), JSM 2019
+
+[*Using GitHub and RStudio to Facilitate Authentic Learning Experiences in a Regression Analysis Course*](https://github.com/matackett/talks/blob/master/posters/uscots2019-gh-rstudio-regression.pdf)(Poster), USCOTS 2019
