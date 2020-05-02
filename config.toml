@@ -19,6 +19,13 @@ copyright = ""
 ## Advanced options below ##
 ############################
 
+[avatar]
+  # Get user avatars from Gravatar.com? (true/false)
+  gravatar = false
+
+  # Choose a shape for avatar images. Options: circle, square.
+  shape = "circle"
+
 ### avatar
 #avatar = "static/img/tackett_headshot.png"
 # Name of Academic theme folder in `themes/`.
