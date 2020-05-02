@@ -140,12 +140,12 @@ list_delimiter = ", "
 ## Advanced
 ############################
 
-  [avatar]
-    # Get user avatars from Gravatar.com? (true/false)
-    gravatar = false
+[avatar]
+# Get user avatars from Gravatar.com? (true/false)
+  gravatar = false
 
-    # Choose a shape for avatar images. Options: circle, square.
-    shape = "circle"
+# Choose a shape for avatar images. Options: circle, square.
+  shape = "circle"
 
 # Align the main menu to the right of the page? (true/false)
 menu_align_right = true
