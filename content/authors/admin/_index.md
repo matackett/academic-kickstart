@@ -43,7 +43,6 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/matackett
-
 ---
 
 I am an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. My research focuses on using technology and active learning techniques to enhance student learning and motivation in large undergraduate statistics courses. Prior to joining the faculty at Duke, I earned a Ph.D. in Statistics from the University of Virginia, where my research focused on using a Bayesian approach to quantify uncertainty in forensic science techniques, with an emphasis on latent fingerprint evidence.
