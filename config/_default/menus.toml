@@ -10,21 +10,21 @@
 
 [[main]]
   name = "Teaching"
-  url = "teaching"
+  url = "/teaching"
   weight = 30
 
 [[main]]
   name = "Talks"
-  url = "talk"
+  url = "/talk"
   weight = 40
 
 [[main]]
   name = "Blog"
-  url = "post"
+  url = "/post"
   weight = 50
 
 [[main]]
   name = "CV"
-  url = "files/maria-tackett-cv.pdf"
+  url = "/files/maria-tackett-cv.pdf"
   weight = 60
 
