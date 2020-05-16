@@ -1,6 +1,6 @@
 ---
-title: Thoughts on Teaching Remote - Part 2
-subtitle: Thoughts on transitioning to remote teaching- Part II
+title: "From In-Person to Remote: Part 2"
+subtitle: "Looking ahead to Fall 2020"
 author: Maria Tackett
 date: "`r Sys.Date()`"
 slug: remote-teaching-part-2
@@ -20,6 +20,8 @@ header:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+**Post coming soon!**
+<!--
 - Introduction. There's a [Part I to this](2020-05-15-thoughts-on-remote-teaching-part1.html) where I talk about how I prepared and the changes I made. In this post, I'll talk about what I want to continue doing in the fall and what I hope to change.
 
 Part II: Lessons Learned (What I hope to keep / change in the fall)
@@ -49,3 +51,4 @@ Part II: Lessons Learned (What I hope to keep / change in the fall)
 
 - Recap from preparing to teaching: good tips: https://preparingtoteach.org/post/recap-remote-teaching/
 https://twitter.com/minebocek/status/1261623031757189120
+-->

@@ -1,6 +1,6 @@
 ---
-title: "Thoughts on Teaching Remote`r emo::ji('mask')` Part 1"
-subtitle: Thoughts on transitioning to remote teaching
+title: "From In-Person to Remote: Part 1"
+subtitle: "How Things Changed in Spring 2020"
 author: Maria Tackett
 date: "`r Sys.Date()`"
 slug: remote-teaching-part-1
@@ -20,6 +20,8 @@ header:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+**Post coming soon!**
+<!--
 To say this has been quite the semester would be an understatement. In the middle of my spring break, I got the notification that Duke was going to remote learning for the remainder of the semester. Though we were given an extra week to make the transition, it was still quite hectic to say the least. After a few weeks of getting used to the new format; however, I realized it wasnt' all bad. Though I still prefer teaching in-person classes, there were a few things I learned this semester that I want to keep doing in the future. 
 
 That leads me to this post. This is my first blog post (well since my Xanga blog in high school), but I wanted to write it for a couple of reasons: 
@@ -90,4 +92,5 @@ Here are a few of the key changes I made with the transition to remote learning.
 - Midterm 2: I give two in-class paper midterms during the semester where students are allowed to bring one page of handwritten notes. Given the exams would be done remotely, I opted for an open-note, open-book exam. I tried to keep the format as similar to the first exam as possible, so students typed their responses in a Word document of the exam, saved it as a PDF and uploaded their resposes to the LMS. The exam was written to be taken within 75 minutes, but students had 2 hours to take the exam to provide flexibility for any computing issues.
 
 In Part 2, I'll talk about some of the things that worked and that I plan to continue doing in the fall and other things I want to change. 
+-->
 
