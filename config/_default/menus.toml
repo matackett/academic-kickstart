@@ -21,10 +21,6 @@
 [[main]]
   name = "Blog"
   url = "post"
-  weight = 45
-[[main]]
-  name = "Media"
-  url = "#media"
   weight = 50
 
 [[main]]
