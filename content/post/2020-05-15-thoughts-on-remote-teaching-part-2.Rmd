@@ -20,7 +20,7 @@ header:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-- Introduction. There's a [Part I to this](../spring-2020-pt1) where I talk about how I prepared and the changes I made. In this post, I'll talk about what I want to continue doing in the fall and what I hope to change.
+- Introduction. There's a [Part I to this](2020-05-15-thoughts-on-remote-teaching-part1.html) where I talk about how I prepared and the changes I made. In this post, I'll talk about what I want to continue doing in the fall and what I hope to change.
 
 Part II: Lessons Learned (What I hope to keep / change in the fall)
 - [What I want to continue doing](#went_well)
