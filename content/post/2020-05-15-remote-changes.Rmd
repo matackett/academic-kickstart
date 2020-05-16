@@ -89,7 +89,5 @@ Here are a few of the key changes I made with the transition to remote learning.
 
 - Midterm 2: I give two in-class paper midterms during the semester where students are allowed to bring one page of handwritten notes. Given the exams would be done remotely, I opted for an open-note, open-book exam. I tried to keep the format as similar to the first exam as possible, so students typed their responses in a Word document of the exam, saved it as a PDF and uploaded their resposes to the LMS. The exam was written to be taken within 75 minutes, but students had 2 hours to take the exam to provide flexibility for any computing issues.
 
-
-
-Now let's talk about what worked/didn't work, given the caveat that this was under emergency circumstances, but there were things that generally worked well. 
+In Part 2, I'll talk about some of the things that worked and that I plan to continue doing in the fall and other things I want to change. 
 
