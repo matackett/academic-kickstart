@@ -170,7 +170,7 @@ plugins_js  = []
 [publication]
   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "January 2006"
+  date_format = "Jan 2, 2006"
 
   # Citation style ("apa" or "mla")
   citation_style = "apa"
@@ -178,20 +178,13 @@ plugins_js  = []
 [talk]
   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "January 2, 2006"
-
-  # Citation style ("apa" or "mla")
-  citation_style = "apa"
-
-[teaching]
-  # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
-  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "January 2006"
+  date_format = "Jan 2, 2006"
 
   # Citation style ("apa" or "mla")
   citation_style = "apa"
 
 # Configuration of project pages.
+ 
 [projects]
   # Views for associated content.
   #   1: List
@@ -211,7 +204,7 @@ plugins_js  = []
   #   0: Disabled
   #   1: Disqus (https://disqus.com)
   #   2: Commento (https://commento.io)
-  engine = 1
+  engine = 0
 
   # Which page types are commentable?
   commentable = {page = false, post = true, docs = false, project = false, publication = false, talk = false}
