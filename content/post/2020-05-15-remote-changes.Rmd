@@ -3,7 +3,7 @@ title: "Thoughts on Teaching Remote`r emo::ji('mask')` Part 1"
 subtitle: Thoughts on transitioning to remote teaching
 author: Maria Tackett
 date: "`r Sys.Date()`"
-slug: remote-teaching-spring-2020
+slug: remote-teaching-part-1
 categories:
 tags:
   - teaching
