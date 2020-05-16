@@ -1,0 +1,47 @@
+---
+title: Thoughts on Teaching Remote - Part 2
+subtitle: Thoughts on transitioning to remote teaching- Part II
+author: Maria Tackett
+date: "`r Sys.Date()`"
+slug: remote-teaching-spring-2020
+categories:
+tags:
+  - teaching
+  - regression
+  - remote-learning
+summary: Reflection on my experience transitioning to remote leraning in Spring 2020
+header:
+  image: ''
+  caption: ''
+  focal_point: ''
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+- Introduction. There's a [Part I to this](../spring-2020-pt1) where I talk about how I prepared and the changes I made. In this post, I'll talk about what I want to continue doing in the fall and what I hope to change.
+
+Part II: Lessons Learned (What I hope to keep / change in the fall)
+- [What I want to continue doing](#went_well)
+- [What I want to change](#to_change)
+    
+## What I want to continue in the fall
+\label{went_well}
+
+- What I want to continue in the fall
+
+  - Gave survey to students [link to survey questions - google doc] to learn more about their learning circumstance. Survey inspired by a colleague who gave a similar one.
+  - Flipped classroom. Have always wanted to do this but have never had the guts / time. Now I was forced to record videos and figure it out. 
+  - Ancedotal evidence from students that they liked this format. 
+  - Video presentations for the final project & discussion board. Rich conversation and enjoyed the creativity. 
+  
+
+## What I want to change
+\label{to_change}
+
+- What I need to figure out for the fall 
+  - How to engage a large class on Zoom. Even with about 1/3 to half of my class being live, it is still difficult to engage that many students on Zoom. [Link to learning innovation's site on active learning]
+  - Help students manage teamwork remotely
+  - Quality of videos on Zoom. Man they were bad. Need editing, and maybe a better way to ensure student's engage.
+  - Office hours, waiting room. Use a tool like MyDigital Hand.
