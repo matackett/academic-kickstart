@@ -1,14 +1,9 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
-title: "Using GitHub and RStudio to Facilitate Authentic Learning Experiences in a Regression Analysis Course"
-event: "JSM"
-event_url: https://ww2.amstat.org/meetings/jsm/2019/
 
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: "2019-07-31"
-date_end: 
-all_day: "2019-07-31"
+title: "{{ replace .Name "-" " " | title }}"
+event:
+event_url:
 
 # Is this a featured talk? (true/false)
 featured: true
@@ -30,8 +25,22 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: https://github.com/matackett/talks/blob/master/presentations/jsm2019-gh-rstudio-regression.pdf
+url_slides:
 url_code:
 url_pdf:
 url_video:
+
+# Markdown Slides (optional).
+#   Associate this talk with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ""
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
 ---
