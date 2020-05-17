@@ -1,16 +1,16 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Using GitHub and RStudio to Facilitate Authentic Learning Experiences in a Regression Analysis Course"
-event: "JSM"
-event_url: https://ww2.amstat.org/meetings/jsm/2019/
-location: Denver, CO 
+title: "You don't have to be an expert to create something meaningful"
+event: "rstudio::conf"
+event_url: https://rstudio.com/conference/
+location: San Francisco, CA
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2019-07-31"
+date: "2020-01-29"
 date_end: 
-all_day: "2019-07-31"
+all_day: "2020-01-29"
 
 # Schedule page publish date (NOT talk date).
 publishDate: 
@@ -38,7 +38,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: https://github.com/matackett/talks/blob/master/presentations/jsm2019-gh-rstudio-regression.pdf
+url_slides: https://github.com/matackett/talks/blob/master/presentations/rladies-lightning-tackett.pdf
 url_code:
 url_pdf:
 url_video:
