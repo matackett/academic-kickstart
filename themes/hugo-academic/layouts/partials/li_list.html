@@ -15,6 +15,7 @@
   {{ $icon = "fa-newspaper" }}
 {{ else if eq $item.Type "talk" }}
   {{ $icon = "fa-calendar-alt" }}
+  {{ $show_event = true }}
 {{ else if eq $item.Type "publication" }}
   {{ $show_authors = true }}
   {{ $show_buttons = true }}
