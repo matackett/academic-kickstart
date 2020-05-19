@@ -9,4 +9,4 @@ public/
 .DS_Store
 
 .RData
-.RHistory
+.Rhistory
