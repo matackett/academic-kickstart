@@ -20,8 +20,6 @@ header:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-**Post coming soon!**
-<!--
 To say this has been quite the semester would be an understatement. In the middle of my spring break, I got the notification that Duke was going to remote learning for the remainder of the semester. Though we were given an extra week to make the transition, it was still quite hectic to say the least. After a few weeks of getting used to the new format; however, I realized it wasnt' all bad. Though I still prefer teaching in-person classes, there were a few things I learned this semester that I want to keep doing in the future. 
 
 That leads me to this post. This is my first blog post (well since my Xanga blog in high school), but I wanted to write it for a couple of reasons: 
@@ -36,25 +34,30 @@ I'll use the term remote learning [IS THIS THE TERM?] to distinguish what I did 
 I've decided to divide this into two parts: 
 
 Part I: From In-Class to Remote
-- [Preparation](#preparation)
-- [From In-Person to Remote](#changes)
+- [The course: Regression Analysis](#sta210)
+- [Preparing for remote learning](#preparation)
+- [How the course changed](#changes)
 
 Part II: Lessons Learned (What I hope to keep / change in the fall)
-- [What I want to continue doing](#went_well)
-- [What I want to change](#to_change)
+- [What I want to continue doing](#went_well) - Fix link
+- [What I want to change](#to_change) - Fix link
     
-## Preparation
-\label{preparation}
+## The Course: Regression Analysis {#sta210}
 
-My course was "online-supported"[IS THIS THE RIGHT TERM? FIND LINK], i.e. almost every element of the course was already facilitated online. 
+[INSERT A SHORT DESCRIPTION OF THE CLASS - CLASS SIZE AND WHO'S IN IT, WHAT IS COVERED, LABS AND LECTURES]. 
 
-- Course website[ADD LINK] contained the syllabus, schedule, and links to lecture slides and assignments.
-- The instructions to all assignments are on the course website. Students do their work in Rstudio and GitHub [ADD LINK TO DATA SCIENCE IN A BOX OR A PAPER], and submit it in Gradescope [ADD LINK].
-- Students use RStudio using virtual machines maintained by the unviersity's Office of Information Technology. Therefore, they can always access RStudio through a web browser. Another option is using Rstudio Cloud [ADD LINK], a cloud-based platform provided and maintained by RStudio. 
-- All assignments are graded in Gradescope, an online grading and rubric platform. Students see the feedback on the assignment and grade directly in Gradescope. Because Gradescope is connected to our LMS (Sakai), the grades are sent to the gradebook secured in  Sakai. 
-- A PDF of the textbook was made available by Duke Library, so students could access it in the Sakai. 
+My course was already "technology-ehanced" (also known as digitally-enhanced) [ADD LINK AND FORMAL DEFINTION]. In other words, almost every element of the course as facilitated online, all being anchored by the in-person lecture and labs. To give you can idea of what a technology-enhanced course looks like, here is a description of how students interact what they need for the course:
 
-Because students were already accessing most of what they needed in the course through a web browser, my primary focus during the transition was on the pedagogical elements, speficially how to do lectures and labs in the context of the new circumstances. This not only meant figuring out the technology but also figuring out how to connect and engage with students who were now around the world, in varying home circumstances.
+- [**Course website**](https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html): Everything needed for the course is accessible from the website. This includes all course content along with links to Sakai, GitHub, and RStudio.  
+- **Sakai**: This is Duke's Learning Managment System (LMS). It is the place for all protected content such as grades. A link to Sakai is available on the course 
+- [**GitHub**](https://github.com/sta210-sp20/): All homework, lab assignments, and the final group project are done using GitHub and RStudio. A private repo is created for each student (or group) that contains an R Markdown template, the data, and a link to the assignment instructions. Students push their updates to the repo as they complete the assignment. I won't go into more detail here, but you can read [INSERT PAPER] to see examples of using GitHub in a variety of statistics courses. 
+- [**RStudio**](rstudio.com): Students use RStudio maintained by the unviersity's Office of Information Technology, so they can access RStudio through a web browser. [RStudio Cloud](rstudio.cloud) is a cloud-based platform provided and maintained by RStudio that is another great served-based option if your institution doesn't have RStudio servers. In addition to the benefits discussed in [INSERT MINE and COLIN's PAPER], using a server-based computing platform made the transition to remote teaching smoother (more on that later). 
+- [**Gradescope**](https://www.gradescope.com/): Students submit their assignments on Gradescope, an online grading and rubric platform. Students can see their assignment grade, the grading rubric, and comments on Gradescope; it is synced with Sakai, so the assignment grade also gets posted in the gradedbook in Sakai.
+
+Since so much of the course was already operating online, my primary focus during the transition was figuring out how to move the face-to-face interactions from the classroom to a video conference.  In other words, how to do lectures, labs, office hours, and the final group project on Zoom. This meant not only figuring out how to use all the features in Zoom but also how to engage students synchronously and asychronously. 
+
+
+## Preparing for remote learning {#preparation}
 
 One of the first things I did was create a survey to send to my students. The survey I sent was largely based on the survey designed by Dr. Kristen Stephens-Martinez  [ADD LINK]. The survey served two primary purposes: 
 
@@ -70,8 +73,7 @@ While most trainings were more focused on how to use the technology, I did find 
 
 I gained enough ideas and strategies from these trainings, that I felt ~~ready~~ less terrified to teach online. 
  
-## Changes 
-\label{changes}
+## How the course changed {#changes}
  
 Here are a few of the key changes I made with the transition to remote learning. You can read about all of the changes and policy updates I made in the Remote Learning Updates [ADD LINK] page.
  
@@ -93,6 +95,6 @@ Here are a few of the key changes I made with the transition to remote learning.
 
 - Midterm 2: I give two in-class paper midterms during the semester where students are allowed to bring one page of handwritten notes. Given the exams would be done remotely, I opted for an open-note, open-book exam. I tried to keep the format as similar to the first exam as possible, so students typed their responses in a Word document of the exam, saved it as a PDF and uploaded their resposes to the LMS. The exam was written to be taken within 75 minutes, but students had 2 hours to take the exam to provide flexibility for any computing issues.
 
-In Part 2, I'll talk about some of the things that worked and that I plan to continue doing in the fall and other things I want to change. 
--->
+In Part 2, I'll talk about some of the things that worked and that I plan to continue doing in the fall and other things I want to change.
+
 
