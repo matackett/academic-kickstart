@@ -59,15 +59,35 @@ Since so much of the course was already operating online, my primary focus durin
 
 ## Preparing for remote learning {#preparation}
 
-One of the first things I did was create a survey to send to my students. The survey I sent was largely based on the survey designed by Dr. Kristen Stephens-Martinez  [ADD LINK]. The survey served two primary purposes: 
+### Student Survey 
 
-1. It helped me get in contact with the students. Since the course had 90 students, this was the most efficient way to try to get in contact with everyone. I set a deadline to fill out the survey and indvidually reached out to students who hadn't completed the survey by the deadline. 
+One of the first things I did in the transition was make a survey for my students adapted from the [COVID-19 Student Survey](https://twitter.com/ksm_csed/status/1238117765829079041) created by Dr. Kristen Stephens-Martinez. Sending the survey was the most helpful thing I did during the transition for two reasons: 
 
-2. It helped me better understand the circumstances students would be in as they finished the semester. Some of the most important pieces of information were the time zone and student's ability to engage in live lectures and labs. These were presented as mutliple choice questions with relatively generic answers about whether they were set up to participate through Zoom during the lecture and lab times (which were required to remain the same as the regular semester). I provided an option for students to elaborate on their answer. I also ended the survey with giving students the option to let me know any questions or concerns they had. 
+1. **It helped me get in contact with the students.** This was the most efficient way to try to get in contact with the students, given they were now living all over the world. I gave students about a week to do the survey and reached out individually to those who hadn't completed it by the deadline. By that point, I was able to get in contact with every student in the class. 
 
-    Sending the survey was by far the most valuable thing I did during the transtiion, as it helped me better understand the circumstances students were in. As I was planning for the course, having this informaiton helped me be more realistic about what the class would look like in the new remote format. 
+2. **It helped me better understand the circumstances students would be in as they finished the semester.** The main pieces of information for planning purposes were the students' 
 
-In addition to the survey, I went to a lot of training courses held by Duke's Learning Innovation [ADD LINK] about transitioning to the remote format, and read almost anything I could find about teaching online courses. I also took a look at how successsful online programs, like Penn State's Program [ADD LINK] were run. 
+    `r emo::ji("one")` time zones
+    
+    `r emo::ji("two")` presumed availablity during lecture and lab times
+    
+   `r emo::ji("three")` access to reliable internet 
+   
+    There was also space for students to share any questions or concerns they had about the transition to remote learning. These comments gave perspective about the new realities a lot of students faced and just the general concern about what would happen the rest of the semester. 
+    
+### Training 
+
+Like a lot of instructors, I had never taught online, so I went to *a lot* training workshops and read almost anything I could find about teaching online classes. Here are some of the resources I used to learn more about teaching online:  
+
+- [Webinar: Teaching online on short notice](https://education.rstudio.com/blog/2020/03/teaching-online-on-short-notice/) by Greg Wilson
+- [Workshops by Duke Learning Innovation](https://keepteaching.duke.edu/workshops/)
+- [Resources and tips for teaching (with) R remotely](https://education.rstudio.com/blog/2020/03/resources-for-teaching-data-science-and-statistics-remotely/)
+
+Additional webinars:
+
+- [Webinar: Teaching R online with RStudio Cloud](https://rstudio.com/resources/webinars/teaching-r-online-with-rstudio-cloud/) by Mine &Ccedil;etinkaya-Rundel
+- [Webinar: Sharing on Short Notice: How to get your materials online with R Markdown](https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/) by Alison Hill and Desir&eacute;e De Leon
+
 
 While most trainings were more focused on how to use the technology, I did find value in just seeing how other people ran online workshops/courses, and how they utilized some of the different features in Zoom. One the most useful courses I took was by Greg Wilson's [ADD TITLE AND LINK]. I took his RStudio Instructor training online, so I knew he was a great facilitator of online courses, so I was happy to see he had a course for the moment. His course provided a nice bridge between the "how-to" of the technology to the pedagogical elements of teaching online. 
 
