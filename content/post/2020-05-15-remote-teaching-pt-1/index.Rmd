@@ -88,8 +88,8 @@ Like a lot of instructors, I had never taught online, so I went to *a lot* train
 - [Resources and tips for teaching (with) R remotely](https://education.rstudio.com/blog/2020/03/resources-for-teaching-data-science-and-statistics-remotely/)
 - [Penn State STAT Online Program](https://online.stat.psu.edu/statprogram/)
 
-- [Webinar: Teaching R online with RStudio Cloud](https://rstudio.com/resources/webinars/teaching-r-online-with-rstudio-cloud/) by Mine &Ccedil;etinkaya-Rundel
-- [Webinar: Sharing on Short Notice: How to get your materials online with R Markdown](https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/) by Alison Hill and Desir&eacute;e De Leon
+- [Webinar: Teaching R online with RStudio Cloud](https://rstudio.com/resources/webinars/teaching-r-online-with-rstudio-cloud/) by Mine Cetinkaya-Rundel
+- [Webinar: Sharing on Short Notice: How to get your materials online with R Markdown](https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/) by Alison Hill and Desiree De Leon
 
 While most trainings were more focused on how to use the technology, I did find value in just seeing how other people ran online workshops/courses, and how they utilized some of the different features in Zoom. One the most useful courses I took was by Greg Wilson's [ADD TITLE AND LINK]. I took his RStudio Instructor training online, so I knew he was a great facilitator of online courses, so I was happy to see he had a course for the moment. His course provided a nice bridge between the "how-to" of the technology to the pedagogical elements of teaching online. 
 
