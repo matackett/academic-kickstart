@@ -10,11 +10,14 @@ tags:
   - regression
   - remote-learning
 summary: Reflection on my experience transitioning to remote leraning in Spring 2020
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 featured: no
 image: 
   caption: 'Caption'
   focal_point: ''
-  preview_only: yes
+  placement: 2
+  preview_only: no
 ---
 
 ```{r setup, include=FALSE}
