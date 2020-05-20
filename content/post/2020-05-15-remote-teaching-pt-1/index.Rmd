@@ -1,5 +1,5 @@
 ---
-title: "From In-Person to Remote: Part 1"
+title: "From F2F to Remote: Part 1 "
 subtitle: "How Things Changed in Spring 2020"
 author: Maria Tackett
 date: "`r Sys.Date()`"
@@ -10,15 +10,19 @@ tags:
   - regression
   - remote-learning
 summary: Reflection on my experience transitioning to remote leraning in Spring 2020
-header:
-  image: ''
-  caption: ''
+featured: no
+image: 
+  caption: 'Caption'
   focal_point: ''
+  preview_only: yes
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+
+This is a blog post about going from face-to-face (f2f) to remote learning. 
 
 To say this has been quite the semester would be an understatement. In the middle of my spring break, I got the notification that Duke was going to remote learning for the remainder of the semester. Though we were given an extra week to make the transition, it was still quite hectic to say the least. After a few weeks of getting used to the new format; however, I realized it wasnt' all bad. Though I still prefer teaching in-person classes, there were a few things I learned this semester that I want to keep doing in the future. 
 
@@ -82,12 +86,10 @@ Like a lot of instructors, I had never taught online, so I went to *a lot* train
 - [Webinar: Teaching online on short notice](https://education.rstudio.com/blog/2020/03/teaching-online-on-short-notice/) by Greg Wilson
 - [Workshops by Duke Learning Innovation](https://keepteaching.duke.edu/workshops/)
 - [Resources and tips for teaching (with) R remotely](https://education.rstudio.com/blog/2020/03/resources-for-teaching-data-science-and-statistics-remotely/)
-
-Additional webinars:
+- [Penn State STAT Online Program](https://online.stat.psu.edu/statprogram/)
 
 - [Webinar: Teaching R online with RStudio Cloud](https://rstudio.com/resources/webinars/teaching-r-online-with-rstudio-cloud/) by Mine &Ccedil;etinkaya-Rundel
 - [Webinar: Sharing on Short Notice: How to get your materials online with R Markdown](https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/) by Alison Hill and Desir&eacute;e De Leon
-
 
 While most trainings were more focused on how to use the technology, I did find value in just seeing how other people ran online workshops/courses, and how they utilized some of the different features in Zoom. One the most useful courses I took was by Greg Wilson's [ADD TITLE AND LINK]. I took his RStudio Instructor training online, so I knew he was a great facilitator of online courses, so I was happy to see he had a course for the moment. His course provided a nice bridge between the "how-to" of the technology to the pedagogical elements of teaching online. 
 
