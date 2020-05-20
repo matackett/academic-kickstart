@@ -1,5 +1,5 @@
 ---
-title: "From f2f to remote: Part 1 "
+title: "From f2f to remote: Part 1" 
 subtitle: "How Things Changed in Spring 2020"
 author: Maria Tackett
 date: "`r Sys.Date()`"
@@ -67,6 +67,8 @@ My course was already "technology-ehanced" (also known as digitally-enhanced) [A
 
 - [**Gradescope**](https://www.gradescope.com/): Students submit their assignments on Gradescope, an online grading and rubric platform. Students can see their assignment grade, the grading rubric, and comments on Gradescope; it is synced with Sakai, so the assignment grade also gets posted in the gradedbook in Sakai.
 
+- [**Piazza**](piazza.com): Online forum for asking questions.
+
 Since so much of the course was already operating online, my primary focus during the transition was figuring out how to move the face-to-face interactions from the classroom to a video conference.  In other words, how to do lectures, labs, office hours, and the final group project on Zoom. This meant not only figuring out how to use all the features in Zoom but also how to engage students synchronously and asychronously. 
 
 ## Preparing for remote learning {#preparation}
@@ -112,23 +114,25 @@ Here I'll focus on the major changes I made to adapt some of the f2f components 
 ### Lectures 
 
 
-As with a lot of classes, the biggest change I made in the transition to remote learning is how I did lectures. The biggest change to the semester was the way I conducted lectures. In the f2f class, I did active lectures with  small group activities and polling questions throughout. As I thought about reorienting the lectures for Zoom, I tried to balance 
+As with a lot of classes, the biggest change I made in the transition to remote learning is how I did lectures. The biggest change to the semester was the way I conducted lectures. In the f2f class, I did active lectures with  small group activities and polling questions throughout. As I thought about reorienting the lectures for Zoom, I tried to balance the desire to
 
-`r emo::ji("white_check_mark")` Wanting to continue meeting for synchronously for lecture
+`r emo::ji("white_check_mark")` continue meeting for synchronously for lecture.
 
-`r emo::ji("white_check_mark")` Not disadvantaging students who couldn't attend the synchronous lecture
+`r emo::ji("white_check_mark")` not disadvantage students who couldn't attend the synchronous lecture.
 
-`r emo::ji("white_check_mark")` Wanting to make the synchronous lectures interactive (or at least as interactive as 90 people on Zoom can be)
+`r emo::ji("white_check_mark")` make the synchronous lectures interactive (or at least as interactive as 90 people on Zoom can be).
 
-Taking these considerations into account, I landed on using a flipped classrom where students watched *lecture content videos* and we answered questions and worked on examples during the *live lecture session*. 
+Taking these considerations into account, I landed on using a flipped classrom where students watched *lecture content videos* and we answered questions and worked on examples during the *live lecture session*. I used this language (instead of "asychronous" vs. "synchronous"),  to help students more easily keep track of the new format. 
 
-#### Lecture content videos
- 
-  -Pre-recorded live lecture videos: These were essentially like the traditional lecture, where I recorded videos talking through the lecture slides. There were questions sprinkled throughout where in-class discussion/activites would've gone [LINK TO AN EXAMPLE], so I asked students to pause the video and jot down their thoughts/responses to the actvity questions. The pre-recorded lectures were posted about two days in advance in a discussion thread in Sakai, LMS. Students were told to either write their questions down to ask during the "Live Lecture Session" or to reply to the thread with their questions if they couldn't attend be live for the lecture. I checked the discussion thread before each class, so I could make sure to address the posted questions in the live lecture. 
+#### Lecture content videos (asynchronous)
+
+Before each "live" lecture, students watched pre-recorded videos covering the content. In these videos, I talked through the lecture slides and included periodic quesitions to mimic the short activities I typically did in f2f lectures. In the videos, I asked students to "Pause the video, write down your response to the quesitons, and we'll discuss them during the live lecture session." I also told students to write down any questions they had about the content in the videos, and we would discuss them in the live lecture session. 
+
+The pre-recorded lectures were posted about two days in advance in a discussion forum in Sakai. I used the discussion forum, so students had the opportunity to post any questions directly under the video. This was most important for students unable to attend the live lecture session, so they could still get answers to their questions. This also provided an opportunity for students to remain engaged  Students were told to either write their questions down to ask during the "Live Lecture Session" or to reply to the thread with their questions if they couldn't attend be live for the lecture. I checked the discussion thread before each class, so I could make sure to address the posted questions in the live lecture. 
   
-### Live lecture session
+### Live lecture session (synchronous)
 
-This was time I met with the class on Zoom during the scheduled lecture time. I made an agenda for each live lecture [ ADD LINK], so students would know what to expect. I typically started with announcements and asking if there any questions that were posted in the discussion thread or that students posted in the Zoom chat or asked verbally after raising their hand. Some quesitons I answered right away; others I jotted down to come back to later since I knew there'd be a more natural place to answer them. 
+ Zoom during the scheduled lecture time. I made an agenda for each live lecture [ ADD LINK], so students would know what to expect. I typically started with announcements and asking if there any questions that were posted in the discussion thread or that students posted in the Zoom chat or asked verbally after raising their hand. Some quesitons I answered right away; others I jotted down to come back to later since I knew there'd be a more natural place to answer them. 
 
     After taking questions,  we basically went through the remaining time walking through an analysis covering the topic. Students could use an Rmd file or rendered HTML to follow-along. I usually talked about the code and more practical elements, since students got the basic terminology and definitions from the pre-recorded lecture. During most live lectures, I randomly split students into breakout rooms to talk about the discussion questions from the videos. 
   
@@ -137,6 +141,8 @@ This was time I met with the class on Zoom during the scheduled lecture time. I 
     Used an iPad with the pencil [WHAT"S THIS CALLED?] and the Goodnotes app as the white board. This worked better for me than Zoom white board, since I often needed to write equations. I also used it write Welcome and point students to the day's notes as they entered the class. I typically started the Zoom live lecture session about 5 minutes early. 
   
     The live lecture sessions were recorded and uploaded into the LMS, so students who were unable to attend live could still access the content. 
+
+- daily recap email 
 
 ## Exam 2
 - Midterm 2: I give two in-class paper midterms during the semester where students are allowed to bring one page of handwritten notes. Given the exams would be done remotely, I opted for an open-note, open-book exam. I tried to keep the format as similar to the first exam as possible, so students typed their responses in a Word document of the exam, saved it as a PDF and uploaded their resposes to the LMS. The exam was written to be taken within 75 minutes, but students had 2 hours to take the exam to provide flexibility for any computing issues.
