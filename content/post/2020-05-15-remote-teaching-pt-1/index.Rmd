@@ -17,7 +17,7 @@ image:
   caption: 'Caption'
   focal_point: ''
   placement: 2
-  preview_only: no
+  preview_only: yes
 ---
 
 ```{r setup, include=FALSE}
