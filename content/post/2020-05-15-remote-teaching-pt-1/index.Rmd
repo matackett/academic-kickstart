@@ -37,12 +37,14 @@ I'll use the term remote learning [IS THIS THE TERM?] to distinguish what I did 
 
 I've decided to divide this into two parts: 
 
-Part I: From In-Class to Remote
+`r emo::ji("arrow_right")` Part 1: From F2F to Remote
+
 - [The course: Regression Analysis](#sta210)
 - [Preparing for remote learning](#preparation)
 - [How the course changed](#changes)
 
-Part II: Lessons Learned (What I hope to keep / change in the fall)
+`r emo::ji("bulb")` Part 2: Lessons Learned (What I hope to keep / change in the fall)
+
 - [What I want to continue doing](#went_well) - Fix link
 - [What I want to change](#to_change) - Fix link
     
