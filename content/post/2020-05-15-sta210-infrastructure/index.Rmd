@@ -1,15 +1,16 @@
 ---
-title: "STA 210 infrastructure" 
-subtitle: "How Things Changed in Spring 2020"
+title: "Running a technology-supported statistics course" 
+subtitle: "How I use technology in an undergraduate regression course"
 author: Maria Tackett
 date: "`r Sys.Date()`"
-slug: regression-course-infrastructure
+slug: regression-course-technology
 categories:
 tags:
   - teaching
   - regression
-  - remote-learning
-summary: Reflection on my experience transitioning to remote leraning in Spring 2020
+  - rstudio
+  - github
+summary:
 # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 featured: no
