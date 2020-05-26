@@ -1,18 +1,17 @@
 ---
-title: "Running a technology-supported statistics course" 
-subtitle: "How I use technology in an undergraduate regression course"
+title: "From f2f to remote: Part 1 `r emo::ji('woman_teacher_medium_dark_skin_tone')`" 
+subtitle: "Infrastructure for an undergraduate regression course"
 author: Maria Tackett
 date: "`r Sys.Date()`"
-slug: regression-course-technology
+slug: f2f-remote-infrastructure
 categories:
 tags:
   - teaching
   - regression
   - rstudio
   - github
-summary:
-# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
-# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  - spring2020
+summary: This is the first in a three-part series about teaching an undergraduate regression course in Spring 2020. In this post, I describe the infrastructure for the course, which was primarily web-based even before the transition to remote learning. 
 featured: no
 image: 
   caption: 'Caption'
@@ -45,24 +44,27 @@ The posts will be in three parts:
 [INSERT SOMETHING ABOUT THE TERM REMOTE LEARNING]
 I'll use the term remote learning [IS THIS THE TERM?] to distinguish what I did this semester from traditional online classes that take a lot of time and careful thought to develop. 
 -->
-
-I've decided to divide this into two parts: 
-
-   
 ## The Course: Regression Analysis {#sta210}
 
-[INSERT A SHORT DESCRIPTION OF THE CLASS - CLASS SIZE AND WHO'S IN IT, WHAT IS COVERED, LABS AND LECTURES]. 
+Before I talk about the infrastructure, here is a brief description of the course to give you some context:
+
+Regression Analysis is a second-semester undergraduate course focused on analyzing multivariate data using regression models. Because the course is early in the undergraduate curriculum, the primary focus is on application rather than the mathematical theory. A more detailed description of the course is at the top of the [course webpage](https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html). 
+
+There were 90 students in the course in Spring 2020, covering all years - freshmen to senior. The course is designed to include a lecture 2X a week and a lab with 30 students in each lab section. 
+
+## Infrastructure
 
 - Insert a sketch of the course infrastructure. 
 - Overall design based on data science in a box. 
 My course was already "technology-supported" (also known as digitally-enhanced) [ADD LINK AND FORMAL DEFINTION]. In other words, almost every element of the course as facilitated online, all being anchored by the in-person lecture and labs. To give you can idea of what a technology-enhanced course looks like, here is a description of how students interact what they need for the course:
 
-## Accessing Materials 
+### Materials 
+
 - [**Course website**](https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html): Everything needed for the course is accessible from the website. This includes all course content along with links to Sakai, GitHub, and RStudio.  
 
 - **Sakai**: This is Duke's Learning Managment System (LMS). It is the place for all protected content such as grades. A link to Sakai is available on the course website. 
 
-## assignments & feedback
+### Assignments
 
 - [**GitHub**](https://github.com/sta210-sp20/): All homework, lab assignments, and the final group project are done using GitHub and RStudio. A private repo is created for each student (or group) that contains an R Markdown template, the data, and a link to the assignment instructions. Students push their updates to the repo as they complete the assignment. I won't go into more detail here, but you can read [INSERT PAPER] to see examples of using GitHub in a variety of statistics courses. 
 
@@ -72,13 +74,11 @@ My course was already "technology-supported" (also known as digitally-enhanced) 
 
 - inculde a link to my jsm talk. 
 
-## asking questions
+### Communication
 
 - [**Piazza**](piazza.com): Online forum for asking questions.
 
 Since so much of the course was already operating online, my primary focus during the transition was figuring out how to move the face-to-face interactions from the classroom to a video conference.  In other words, how to do lectures, labs, office hours, and the final group project on Zoom. This meant not only figuring out how to use all the features in Zoom but also how to engage students synchronously and asychronously. 
 
-## teaching team communication 
-
-- use slack
+- Teaching Team Communication: Use Slack 
 
