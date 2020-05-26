@@ -33,32 +33,36 @@ knitr::opts_chunk$set(echo = FALSE)
 
 2. It seems inevitable that I will have to teach online again, if not in the fall (Duke hasn't made an official announcement yet) then at some point in my career. Therefore it seems useful to write down and reflect on my experience this spring. 
 
+The posts will be in three parts: 
 
+`r emo::ji("woman_teacher_medium_dark_skin_tone")` Course before the transition 
+
+`r emo::ji("woman_technologist_medium_dark_skin_tone")` What changed in remote learning
+
+`r emo::ji("woman_detective_medium_dark_skin_tone")` Figuring what worked and didn't work
+
+<!--
 [INSERT SOMETHING ABOUT THE TERM REMOTE LEARNING]
 I'll use the term remote learning [IS THIS THE TERM?] to distinguish what I did this semester from traditional online classes that take a lot of time and careful thought to develop. 
+-->
 
 I've decided to divide this into two parts: 
 
-`r emo::ji("arrow_right")` Part 1: From F2F to Remote
-
-- [The course: Regression Analysis](#sta210)
-- [Preparing for remote learning](#preparation)
-- [How the course changed](#changes)
-
-`r emo::ji("bulb")` Part 2: Lessons Learned (What I hope to keep / change in the fall)
-
-- [What I want to continue doing](#went_well) - Fix link
-- [What I want to change](#to_change) - Fix link
-    
+   
 ## The Course: Regression Analysis {#sta210}
 
 [INSERT A SHORT DESCRIPTION OF THE CLASS - CLASS SIZE AND WHO'S IN IT, WHAT IS COVERED, LABS AND LECTURES]. 
 
-My course was already "technology-ehanced" (also known as digitally-enhanced) [ADD LINK AND FORMAL DEFINTION]. In other words, almost every element of the course as facilitated online, all being anchored by the in-person lecture and labs. To give you can idea of what a technology-enhanced course looks like, here is a description of how students interact what they need for the course:
+- Insert a sketch of the course infrastructure. 
+- Overall design based on data science in a box. 
+My course was already "technology-supported" (also known as digitally-enhanced) [ADD LINK AND FORMAL DEFINTION]. In other words, almost every element of the course as facilitated online, all being anchored by the in-person lecture and labs. To give you can idea of what a technology-enhanced course looks like, here is a description of how students interact what they need for the course:
 
+## Accessing Materials 
 - [**Course website**](https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html): Everything needed for the course is accessible from the website. This includes all course content along with links to Sakai, GitHub, and RStudio.  
 
 - **Sakai**: This is Duke's Learning Managment System (LMS). It is the place for all protected content such as grades. A link to Sakai is available on the course website. 
+
+## assignments & feedback
 
 - [**GitHub**](https://github.com/sta210-sp20/): All homework, lab assignments, and the final group project are done using GitHub and RStudio. A private repo is created for each student (or group) that contains an R Markdown template, the data, and a link to the assignment instructions. Students push their updates to the repo as they complete the assignment. I won't go into more detail here, but you can read [INSERT PAPER] to see examples of using GitHub in a variety of statistics courses. 
 
@@ -66,7 +70,15 @@ My course was already "technology-ehanced" (also known as digitally-enhanced) [A
 
 - [**Gradescope**](https://www.gradescope.com/): Students submit their assignments on Gradescope, an online grading and rubric platform. Students can see their assignment grade, the grading rubric, and comments on Gradescope; it is synced with Sakai, so the assignment grade also gets posted in the gradedbook in Sakai.
 
+- inculde a link to my jsm talk. 
+
+## asking questions
+
 - [**Piazza**](piazza.com): Online forum for asking questions.
 
 Since so much of the course was already operating online, my primary focus during the transition was figuring out how to move the face-to-face interactions from the classroom to a video conference.  In other words, how to do lectures, labs, office hours, and the final group project on Zoom. This meant not only figuring out how to use all the features in Zoom but also how to engage students synchronously and asychronously. 
+
+## teaching team communication 
+
+- use slack
 
