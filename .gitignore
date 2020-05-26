@@ -10,3 +10,7 @@ public/
 
 .RData
 .Rhistory
+
+view.sh
+update_academic.sh
+
