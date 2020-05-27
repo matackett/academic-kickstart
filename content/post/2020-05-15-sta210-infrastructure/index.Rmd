@@ -48,25 +48,26 @@ I'll use the term remote learning [IS THIS THE TERM?] to distinguish what I did 
 
 Before I talk about the infrastructure, here is a brief description of the course to give you some context:
 
-Regression Analysis is a second-semester undergraduate course focused on analyzing multivariate data using regression models. Because the course is early in the undergraduate curriculum, the primary focus is on application rather than the mathematical theory. A more detailed description of the course is at the top of the [course webpage](https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html). 
+Regression Analysis is a second-semester undergraduate course focused on analyzing multivariate data using regression models. Because the course is early in the undergraduate curriculum, the primary focus is on application rather than the mathematical theory. A more detailed description of the course is at the top of the [course website](https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html). 
 
 There were 90 students in the course in Spring 2020, covering all years - freshmen to senior. The course is designed to include a lecture 2X a week and a lab with 30 students in each lab section. 
 
 ## Infrastructure
 
-- Insert a sketch of the course infrastructure. 
-- Overall design based on data science in a box. 
-My course was already "technology-supported" (also known as digitally-enhanced) [ADD LINK AND FORMAL DEFINTION]. In other words, almost every element of the course as facilitated online, all being anchored by the in-person lecture and labs. To give you can idea of what a technology-enhanced course looks like, here is a description of how students interact what they need for the course:
+- [Insert a sketch of the course infrastructure]
+
+The course can be described as "technology supported"[LINK?], i.e. most of the course is facilitated online and is anchored by in-person lectures and labs. The infrastructure is based on the one described in [Data Science in a Box](https://datasciencebox.org/infrastructure/). I'll describe each part of the infrastructure below.
+
 
 ### Materials 
 
-- [**Course website**](https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html): Everything needed for the course is accessible from the website. This includes all course content along with links to Sakai, GitHub, and RStudio.  
+- .emph[Course website]: The [course website](https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html) is the central hub for the course. Students can access anything they need including the syllabus, course schedule, lecture slides, and assignment instructions from the website. It also includes links to the other platforms we use (e.g. Sakai, GitHub). I encourage students to bookmark the course website, since it is the one-stop shop for everything they need in the course. 
 
-- **Sakai**: This is Duke's Learning Managment System (LMS). It is the place for all protected content such as grades. A link to Sakai is available on the course website. 
+- .emph[Sakai]: This is Duke's Learning Management System (LMS). It is the place for all protected content such as grades.
 
 ### Assignments
 
-- [**GitHub**](https://github.com/sta210-sp20/): All homework, lab assignments, and the final group project are done using GitHub and RStudio. A private repo is created for each student (or group) that contains an R Markdown template, the data, and a link to the assignment instructions. Students push their updates to the repo as they complete the assignment. I won't go into more detail here, but you can read [INSERT PAPER] to see examples of using GitHub in a variety of statistics courses. 
+- .emph[**GitHub**]: All homework, lab assignments, and the final group project are done using GitHub and RStudio. An ["organization"](http://www.github.com/sta210-sp20) is created for the course on GitHub and is connected to GitHub Classroom so students' work can remain private. For each assignment, a private **repo**sitory, i.e. directory, is created for each student or group. The repo contains an R Markdown template, the data, and a link to the assignment instructions. Students connect the repo to a project in RStudio and "push" their updates to the repo as they complete the assignment. I won't go into more detail here, but [*Reproducible Workflows: R Markdown, Git, GitHub*](https://rstudio-conf-2020.github.io/design-ds-classroom/materials/05-github/slides/05-github.html#1) from the [Desgining the Data Science Classroom](https://rstudio-conf-2020.github.io/design-ds-classroom/) has more information about the assignment workflow using RStudio and GitHub. 
 
 - [**RStudio**](rstudio.com): Students use RStudio maintained by the unviersity's Office of Information Technology, so they can access RStudio through a web browser. [RStudio Cloud](rstudio.cloud) is a cloud-based platform provided and maintained by RStudio that is another great served-based option if your institution doesn't have RStudio servers. In addition to the benefits discussed in [INSERT MINE and COLIN's PAPER], using a server-based computing platform made the transition to remote teaching smoother (more on that later). 
 
@@ -81,4 +82,11 @@ My course was already "technology-supported" (also known as digitally-enhanced) 
 Since so much of the course was already operating online, my primary focus during the transition was figuring out how to move the face-to-face interactions from the classroom to a video conference.  In other words, how to do lectures, labs, office hours, and the final group project on Zoom. This meant not only figuring out how to use all the features in Zoom but also how to engage students synchronously and asychronously. 
 
 - Teaching Team Communication: Use Slack 
+
+
+## Resources 
+
+Here are some good resources if you're interested in setting up a similar infrastructure for your course: 
+
+
 

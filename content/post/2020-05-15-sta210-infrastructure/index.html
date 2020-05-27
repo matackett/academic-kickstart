@@ -2,7 +2,7 @@
 title: "From f2f to remote: Part 1 👩🏾‍🏫" 
 subtitle: "Infrastructure for an undergraduate regression course"
 author: Maria Tackett
-date: "2020-05-26"
+date: "2020-05-27"
 slug: f2f-remote-infrastructure
 categories:
 tags:
@@ -42,27 +42,26 @@ I'll use the term remote learning [IS THIS THE TERM?] to distinguish what I did 
 <div id="sta210" class="section level2">
 <h2>The Course: Regression Analysis</h2>
 <p>Before I talk about the infrastructure, here is a brief description of the course to give you some context:</p>
-<p>Regression Analysis is a second-semester undergraduate course focused on analyzing multivariate data using regression models. Because the course is early in the undergraduate curriculum, the primary focus is on application rather than the mathematical theory. A more detailed description of the course is at the top of the <a href="https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html">course webpage</a>.</p>
+<p>Regression Analysis is a second-semester undergraduate course focused on analyzing multivariate data using regression models. Because the course is early in the undergraduate curriculum, the primary focus is on application rather than the mathematical theory. A more detailed description of the course is at the top of the <a href="https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html">course website</a>.</p>
 <p>There were 90 students in the course in Spring 2020, covering all years - freshmen to senior. The course is designed to include a lecture 2X a week and a lab with 30 students in each lab section.</p>
 </div>
 <div id="infrastructure" class="section level2">
 <h2>Infrastructure</h2>
 <ul>
-<li>Insert a sketch of the course infrastructure.</li>
-<li>Overall design based on data science in a box.
-My course was already “technology-supported” (also known as digitally-enhanced) [ADD LINK AND FORMAL DEFINTION]. In other words, almost every element of the course as facilitated online, all being anchored by the in-person lecture and labs. To give you can idea of what a technology-enhanced course looks like, here is a description of how students interact what they need for the course:</li>
+<li>[Insert a sketch of the course infrastructure]</li>
 </ul>
+<p>The course can be described as “technology supported”[LINK?], i.e. most of the course is facilitated online and is anchored by in-person lectures and labs. The infrastructure is based on the one described in <a href="https://datasciencebox.org/infrastructure/">Data Science in a Box</a>. I’ll describe each part of the infrastructure below.</p>
 <div id="materials" class="section level3">
 <h3>Materials</h3>
 <ul>
-<li><p><a href="https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html"><strong>Course website</strong></a>: Everything needed for the course is accessible from the website. This includes all course content along with links to Sakai, GitHub, and RStudio.</p></li>
-<li><p><strong>Sakai</strong>: This is Duke’s Learning Managment System (LMS). It is the place for all protected content such as grades. A link to Sakai is available on the course website.</p></li>
+<li><p>.emph[Course website]: The <a href="https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html">course website</a> is the central hub for the course. Students can access anything they need including the syllabus, course schedule, lecture slides, and assignment instructions from the website. It also includes links to the other platforms we use (e.g. Sakai, GitHub). I encourage students to bookmark the course website, since it is the one-stop shop for everything they need in the course.</p></li>
+<li><p>.emph[Sakai]: This is Duke’s Learning Management System (LMS). It is the place for all protected content such as grades.</p></li>
 </ul>
 </div>
 <div id="assignments" class="section level3">
 <h3>Assignments</h3>
 <ul>
-<li><p><a href="https://github.com/sta210-sp20/"><strong>GitHub</strong></a>: All homework, lab assignments, and the final group project are done using GitHub and RStudio. A private repo is created for each student (or group) that contains an R Markdown template, the data, and a link to the assignment instructions. Students push their updates to the repo as they complete the assignment. I won’t go into more detail here, but you can read [INSERT PAPER] to see examples of using GitHub in a variety of statistics courses.</p></li>
+<li><p>.emph[<strong>GitHub</strong>]: All homework, lab assignments, and the final group project are done using GitHub and RStudio. An <a href="http://www.github.com/sta210-sp20">“organization”</a> is created for the course on GitHub and is connected to GitHub Classroom so students’ work can remain private. For each assignment, a private <strong>repo</strong>sitory, i.e. directory, is created for each student or group. The repo contains an R Markdown template, the data, and a link to the assignment instructions. Students connect the repo to a project in RStudio and “push” their updates to the repo as they complete the assignment. I won’t go into more detail here, but <a href="https://rstudio-conf-2020.github.io/design-ds-classroom/materials/05-github/slides/05-github.html#1"><em>Reproducible Workflows: R Markdown, Git, GitHub</em></a> from the <a href="https://rstudio-conf-2020.github.io/design-ds-classroom/">Desgining the Data Science Classroom</a> has more information about the assignment workflow using RStudio and GitHub.</p></li>
 <li><p><a href="rstudio.com"><strong>RStudio</strong></a>: Students use RStudio maintained by the unviersity’s Office of Information Technology, so they can access RStudio through a web browser. <a href="rstudio.cloud">RStudio Cloud</a> is a cloud-based platform provided and maintained by RStudio that is another great served-based option if your institution doesn’t have RStudio servers. In addition to the benefits discussed in [INSERT MINE and COLIN’s PAPER], using a server-based computing platform made the transition to remote teaching smoother (more on that later).</p></li>
 <li><p><a href="https://www.gradescope.com/"><strong>Gradescope</strong></a>: Students submit their assignments on Gradescope, an online grading and rubric platform. Students can see their assignment grade, the grading rubric, and comments on Gradescope; it is synced with Sakai, so the assignment grade also gets posted in the gradedbook in Sakai.</p></li>
 <li><p>inculde a link to my jsm talk.</p></li>
@@ -78,4 +77,8 @@ My course was already “technology-supported” (also known as digitally-enhanc
 <li>Teaching Team Communication: Use Slack</li>
 </ul>
 </div>
+</div>
+<div id="resources" class="section level2">
+<h2>Resources</h2>
+<p>Here are some good resources if you’re interested in setting up a similar infrastructure for your course:</p>
 </div>
