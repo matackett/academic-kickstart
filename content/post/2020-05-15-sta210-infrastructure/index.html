@@ -2,7 +2,7 @@
 title: "From f2f to remote: Part 1 👩🏾‍🏫" 
 subtitle: "Infrastructure for an undergraduate regression course"
 author: Maria Tackett
-date: "2020-05-27"
+date: "2020-05-28"
 slug: f2f-remote-infrastructure
 categories:
 tags:
@@ -55,26 +55,23 @@ I'll use the term remote learning [IS THIS THE TERM?] to distinguish what I did 
 <h3>Materials</h3>
 <ul>
 <li><p>.emph[Course website]: The <a href="https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html">course website</a> is the central hub for the course. Students can access anything they need including the syllabus, course schedule, lecture slides, and assignment instructions from the website. It also includes links to the other platforms we use (e.g. Sakai, GitHub). I encourage students to bookmark the course website, since it is the one-stop shop for everything they need in the course.</p></li>
-<li><p>.emph[Sakai]: This is Duke’s Learning Management System (LMS). It is the place for all protected content such as grades.</p></li>
+<li><p>.emph[Learning Management System (LMS)]: All protected content, such as grades, are put in the LMS. It also includes links to the course schedule, syllabus, and the platforms listed below, in case students would rather navigate the course through the LMS rather than the website.</p></li>
 </ul>
 </div>
 <div id="assignments" class="section level3">
 <h3>Assignments</h3>
 <ul>
-<li><p>.emph[<strong>GitHub</strong>]: All homework, lab assignments, and the final group project are done using GitHub and RStudio. An <a href="http://www.github.com/sta210-sp20">“organization”</a> is created for the course on GitHub and is connected to GitHub Classroom so students’ work can remain private. For each assignment, a private <strong>repo</strong>sitory, i.e. directory, is created for each student or group. The repo contains an R Markdown template, the data, and a link to the assignment instructions. Students connect the repo to a project in RStudio and “push” their updates to the repo as they complete the assignment. I won’t go into more detail here, but <a href="https://rstudio-conf-2020.github.io/design-ds-classroom/materials/05-github/slides/05-github.html#1"><em>Reproducible Workflows: R Markdown, Git, GitHub</em></a> from the <a href="https://rstudio-conf-2020.github.io/design-ds-classroom/">Desgining the Data Science Classroom</a> has more information about the assignment workflow using RStudio and GitHub.</p></li>
-<li><p><a href="rstudio.com"><strong>RStudio</strong></a>: Students use RStudio maintained by the unviersity’s Office of Information Technology, so they can access RStudio through a web browser. <a href="rstudio.cloud">RStudio Cloud</a> is a cloud-based platform provided and maintained by RStudio that is another great served-based option if your institution doesn’t have RStudio servers. In addition to the benefits discussed in [INSERT MINE and COLIN’s PAPER], using a server-based computing platform made the transition to remote teaching smoother (more on that later).</p></li>
-<li><p><a href="https://www.gradescope.com/"><strong>Gradescope</strong></a>: Students submit their assignments on Gradescope, an online grading and rubric platform. Students can see their assignment grade, the grading rubric, and comments on Gradescope; it is synced with Sakai, so the assignment grade also gets posted in the gradedbook in Sakai.</p></li>
-<li><p>inculde a link to my jsm talk.</p></li>
+<li><p>.emph[GitHub]: All homework, lab assignments, and the final group project are done using GitHub and RStudio. An <a href="http://www.github.com/sta210-sp20">“organization”</a> is created for the course on GitHub and is connected to GitHub Classroom so students’ work can remain private. For each assignment, a private <strong>repo</strong>sitory, i.e. directory, is created for each student or group. The repo contains an R Markdown template, the data, and a link to the assignment instructions. Students connect the repo to a project in RStudio and “push” their updates to the repo as they complete the assignment. I won’t go into more detail here, but <a href="https://rstudio-conf-2020.github.io/design-ds-classroom/materials/05-github/slides/05-github.html#1"><em>Reproducible Workflows: R Markdown, Git, GitHub</em></a> from the <a href="https://rstudio-conf-2020.github.io/design-ds-classroom/">Desgining the Data Science Classroom</a> has more information about the assignment workflow using RStudio and GitHub.</p></li>
+<li><p>.emph[RStudio]: Students use RStudio through a server maintained by the university’s Office of Information Technology. They access RStudio through a web browser, so they can use it on almost any device, including tablets and notebooks. <a href="rstudio.cloud">RStudio Cloud</a> is a cloud-based platform provided and maintained by RStudio that is another great served-based option if your institution doesn’t have RStudio servers. The article <a href="https://peerj.com/preprints/3181/"><em>Infrastructure and tools for teaching computing throughout the statistical curriculum</em></a> discusses the details and benefits of using RStudio through servers for teaching.</p></li>
+<li><p>.emph[Gradescope]: Students submit their assignments on <a href="https://www.gradescope.com/">Gradescope</a>, an online grading and rubric platform. Students can see their assignment grades, grading rubrics, and comments on Gradescope. It can sync with numerous LMS platforms, so the grades can easily be posted in the gradebook in the LMS.</p></li>
 </ul>
+<p>To get an idea of how I use RStudio, GitHub, and Gradescope in a typical assignment, check out the slides from my Women in Statistics and Data Science talk <a href="https://github.com/matackett/talks/blob/master/presentations/wsds-2019.pdf"><em>Using GitHub and RStudio to facilitate authentic learning experiences in a regression analysis course</em></a>.</p>
 </div>
 <div id="communication" class="section level3">
 <h3>Communication</h3>
 <ul>
-<li><a href="piazza.com"><strong>Piazza</strong></a>: Online forum for asking questions.</li>
-</ul>
-<p>Since so much of the course was already operating online, my primary focus during the transition was figuring out how to move the face-to-face interactions from the classroom to a video conference. In other words, how to do lectures, labs, office hours, and the final group project on Zoom. This meant not only figuring out how to use all the features in Zoom but also how to engage students synchronously and asychronously.</p>
-<ul>
-<li>Teaching Team Communication: Use Slack</li>
+<li><p>.emph[Student Q&amp;A]: Students use <a href="https://piazza.com/">Piazza</a>, an online Q&amp;A platform to post questions about assignments and the course content. Anyone in the course can respond to the question, so this gives students an opportunity to answer each others’ questions. It also keeps me and the teaching assistants from having to answer the same question multiple times.</p></li>
+<li><p>.emph[Teaching Team Communication]: I use <a href="https://slack.com/">Slack</a> to communicate with the teaching team. We have multiple channels - general, hw, labs, exams, project, office-hours - to help organize the conversation. Aside from an initial email at the beginning of the semester, all communication with the teaching team occurs in Slack. This helps keep everything in one place, and the more relaxed nature of Slack (compared to email) encourages more frequent discussion.</p></li>
 </ul>
 </div>
 </div>
