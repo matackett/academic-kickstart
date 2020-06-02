@@ -1,8 +1,8 @@
 ---
 title: "From f2f to remote: Part 1 👩🏾‍🏫" 
-subtitle: "Infrastructure for an undergraduate regression course"
+subtitle: "Infrastructure for an undergraduate statistics course"
 author: Maria Tackett
-date: "2020-05-28"
+date: "2020-06-02"
 slug: f2f-remote-infrastructure
 categories:
 tags:
@@ -11,7 +11,7 @@ tags:
   - rstudio
   - github
   - spring2020
-summary: This is the first in a three-part series about teaching an undergraduate regression course in Spring 2020. In this post, I describe the infrastructure for the course, which was primarily web-based even before the transition to remote learning. 
+summary: This is the first in a two-part series about teaching an undergraduate regression course in Spring 2020. In this post, I describe the infrastructure for the course, which was primarily web-based even before the transition to remote learning. 
 featured: no
 image: 
   caption: 'Caption'
@@ -22,23 +22,15 @@ image:
 
 
 
-<ul>
-<li>Set about writing a blog post about going from f2f to remote</li>
-<li>Realized I had a lot to write, so my one post turned into 3.</li>
-<li>I’m writing these posts for 2 reasons:</li>
-</ul>
-<ol style="list-style-type: decimal">
-<li><p>I find it helpful to exchange ideas, especially in times like this when a lot of instructors are learning a new way to teach, learning it super quickly, and will be expected to do it well.</p></li>
-<li><p>It seems inevitable that I will have to teach online again, if not in the fall (Duke hasn’t made an official announcement yet) then at some point in my career. Therefore it seems useful to write down and reflect on my experience this spring.</p></li>
-</ol>
-<p>The posts will be in three parts:</p>
-<p>👩🏾‍🏫 Course before the transition</p>
-<p>👩🏾‍💻 What changed in remote learning</p>
-<p>🕵🏾‍♀️ Figuring what worked and didn’t work</p>
-<!--
-[INSERT SOMETHING ABOUT THE TERM REMOTE LEARNING]
-I'll use the term remote learning [IS THIS THE TERM?] to distinguish what I did this semester from traditional online classes that take a lot of time and careful thought to develop. 
--->
+<style>
+.emph {
+font-weight: 850; 
+color: #671973;
+}
+</style>
+<p>Spring 2020 was quite the semester (to say the least), so I thought it’d be worth writing about the experience of going from face-to-face (f2f) to “emergency remote” teaching. There’s a lot of info to share, so I’ll split it into two posts:</p>
+<p>👩🏾‍🏫 Part 1: The infrastructure for an undergraduate regression course</p>
+<p>👩🏾‍💻 Part 2: How the class changed in the transition to remote, including what worked and didn’t work.</p>
 <div id="sta210" class="section level2">
 <h2>The Course: Regression Analysis</h2>
 <p>Before I talk about the infrastructure, here is a brief description of the course to give you some context:</p>
@@ -50,32 +42,35 @@ I'll use the term remote learning [IS THIS THE TERM?] to distinguish what I did 
 <ul>
 <li>[Insert a sketch of the course infrastructure]</li>
 </ul>
-<p>The course can be described as “technology supported”[LINK?], i.e. most of the course is facilitated online and is anchored by in-person lectures and labs. The infrastructure is based on the one described in <a href="https://datasciencebox.org/infrastructure/">Data Science in a Box</a>. I’ll describe each part of the infrastructure below.</p>
+<p>The course can be described as “technology supported”, i.e. most of the course is facilitated online and is anchored by in-person lectures and labs. The infrastructure is based on the one described in <a href="https://datasciencebox.org/infrastructure/">Data Science in a Box</a>. I’ll describe each part of the infrastructure below.</p>
 <div id="materials" class="section level3">
 <h3>Materials</h3>
 <ul>
-<li><p>.emph[Course website]: The <a href="https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html">course website</a> is the central hub for the course. Students can access anything they need including the syllabus, course schedule, lecture slides, and assignment instructions from the website. It also includes links to the other platforms we use (e.g. Sakai, GitHub). I encourage students to bookmark the course website, since it is the one-stop shop for everything they need in the course.</p></li>
-<li><p>.emph[Learning Management System (LMS)]: All protected content, such as grades, are put in the LMS. It also includes links to the course schedule, syllabus, and the platforms listed below, in case students would rather navigate the course through the LMS rather than the website.</p></li>
+<li><p><font class = "emph">Course website</font>: The <a href="https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html">course website</a> is the central hub for the course. Students can access anything they need including the syllabus, course schedule, lecture slides, and assignment instructions from the website. It also includes links to the other platforms we use (e.g. Sakai, GitHub). I encourage students to bookmark the course website, since it is the one-stop shop for everything they need in the course.</p></li>
+<li><p><font class = "emph">Learning Management System (LMS)</font>: All protected content, such as grades, are put in the LMS. It also includes links to the course schedule, syllabus, and the platforms listed below, in case students would rather navigate the course through the LMS rather than the website.</p></li>
 </ul>
 </div>
 <div id="assignments" class="section level3">
 <h3>Assignments</h3>
 <ul>
-<li><p>.emph[GitHub]: All homework, lab assignments, and the final group project are done using GitHub and RStudio. An <a href="http://www.github.com/sta210-sp20">“organization”</a> is created for the course on GitHub and is connected to GitHub Classroom so students’ work can remain private. For each assignment, a private <strong>repo</strong>sitory, i.e. directory, is created for each student or group. The repo contains an R Markdown template, the data, and a link to the assignment instructions. Students connect the repo to a project in RStudio and “push” their updates to the repo as they complete the assignment. I won’t go into more detail here, but <a href="https://rstudio-conf-2020.github.io/design-ds-classroom/materials/05-github/slides/05-github.html#1"><em>Reproducible Workflows: R Markdown, Git, GitHub</em></a> from the <a href="https://rstudio-conf-2020.github.io/design-ds-classroom/">Desgining the Data Science Classroom</a> has more information about the assignment workflow using RStudio and GitHub.</p></li>
-<li><p>.emph[RStudio]: Students use RStudio through a server maintained by the university’s Office of Information Technology. They access RStudio through a web browser, so they can use it on almost any device, including tablets and notebooks. <a href="rstudio.cloud">RStudio Cloud</a> is a cloud-based platform provided and maintained by RStudio that is another great served-based option if your institution doesn’t have RStudio servers. The article <a href="https://peerj.com/preprints/3181/"><em>Infrastructure and tools for teaching computing throughout the statistical curriculum</em></a> discusses the details and benefits of using RStudio through servers for teaching.</p></li>
-<li><p>.emph[Gradescope]: Students submit their assignments on <a href="https://www.gradescope.com/">Gradescope</a>, an online grading and rubric platform. Students can see their assignment grades, grading rubrics, and comments on Gradescope. It can sync with numerous LMS platforms, so the grades can easily be posted in the gradebook in the LMS.</p></li>
+<li><p><font class = "emph">GitHub</font>: All homework, lab assignments, and the final group project are done using GitHub and RStudio. An <a href="http://www.github.com/sta210-sp20">“organization”</a> is created for the course on GitHub and is connected to GitHub Classroom so students’ work can remain private. For each assignment, a private <strong>repo</strong>sitory, i.e. directory, is created for each student or group. I use the <a href="https://rundel.github.io/ghclass/">ghclass R package</a> to make the student repos based on a single starter repo that contains an R Markdown template, the data, and a link to the assignment instructions. Students connect their private repo to a project in RStudio and “push” their updates to the repo as they complete the assignment. I won’t go into more detail here, but here are some good resources for using GitHub in your course:</p>
+<ul>
+<li><a href="https://rstudio-conf-2020.github.io/design-ds-classroom/materials/05-github/slides/05-github.html#1"><em>Reproducible Workflows: R Markdown, Git, GitHub</em></a></li>
+<li><a href="https://arxiv.org/abs/2001.01988"><em>Implementing version control with Git as a learning objective in statistics courses</em></a></li>
+<li><a href="https://amstat.tandfonline.com/doi/full/10.1080/10691898.2019.1617089#.XtbPQBNKgdU"><em>Using GitHub Classroom To Teach Statistics</em></a></li>
+</ul></li>
+<li><p><font class = "emph">RStudio</font>: Students use RStudio through a server maintained by the university’s Office of Information Technology. They access RStudio through a web browser, so they can use it on almost any device, including tablets and notebooks. <a href="rstudio.cloud">RStudio Cloud</a> is a cloud-based platform provided and maintained by RStudio that is another great served-based option if your institution doesn’t have RStudio servers. The article <a href="https://peerj.com/preprints/3181/"><em>Infrastructure and tools for teaching computing throughout the statistical curriculum</em></a> discusses the details and benefits of using RStudio through servers for teaching.</p></li>
+<li><p><font class = "emph">Gradescope</font>: Students submit their assignments on <a href="https://www.gradescope.com/">Gradescope</a>, an online grading and rubric platform. Students can see their assignment grades, grading rubrics, and comments on Gradescope. It can sync with numerous LMS platforms, so the grades can easily be posted in the gradebook in the LMS.</p></li>
 </ul>
 <p>To get an idea of how I use RStudio, GitHub, and Gradescope in a typical assignment, check out the slides from my Women in Statistics and Data Science talk <a href="https://github.com/matackett/talks/blob/master/presentations/wsds-2019.pdf"><em>Using GitHub and RStudio to facilitate authentic learning experiences in a regression analysis course</em></a>.</p>
 </div>
 <div id="communication" class="section level3">
 <h3>Communication</h3>
 <ul>
-<li><p>.emph[Student Q&amp;A]: Students use <a href="https://piazza.com/">Piazza</a>, an online Q&amp;A platform to post questions about assignments and the course content. Anyone in the course can respond to the question, so this gives students an opportunity to answer each others’ questions. It also keeps me and the teaching assistants from having to answer the same question multiple times.</p></li>
-<li><p>.emph[Teaching Team Communication]: I use <a href="https://slack.com/">Slack</a> to communicate with the teaching team. We have multiple channels - general, hw, labs, exams, project, office-hours - to help organize the conversation. Aside from an initial email at the beginning of the semester, all communication with the teaching team occurs in Slack. This helps keep everything in one place, and the more relaxed nature of Slack (compared to email) encourages more frequent discussion.</p></li>
+<li><p><font class = "emph">Student Q&amp;A</font>: Students use <a href="https://piazza.com/">Piazza</a>, an online Q&amp;A platform to post questions about assignments and the course content. Anyone in the course can respond to the question, so this gives students an opportunity to answer each others’ questions. It also keeps me and the teaching assistants from having to answer the same question multiple times.</p></li>
+<li><p><font class = "emph">Teaching Team Communication</font>: I use <a href="https://slack.com/">Slack</a> to communicate with the teaching team. We have multiple channels - <em>general, hw, labs, exams, project, office-hours</em> - to help organize the conversation. Aside from an initial email at the beginning of the semester, all communication with the teaching team occurs in Slack. This helps keep everything in one place, and the more relaxed nature of Slack (compared to email) encourages more frequent discussion.</p></li>
 </ul>
+<p><br></p>
+<p>In Part 2, I’ll share how the course changed when we transitioned to remote learning. <em>Spoiler alert: having this course infrastructure made the transiton much smoother.</em></p>
 </div>
-</div>
-<div id="resources" class="section level2">
-<h2>Resources</h2>
-<p>Here are some good resources if you’re interested in setting up a similar infrastructure for your course:</p>
 </div>
