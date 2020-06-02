@@ -9,7 +9,7 @@ tags:
   - teaching
   - regression
   - remote-learning
-summary: This is the second post in a two-part series about transitioning to remote learning in Spring 2020. In this post, I focus on how the course changed when we moved online and take a look at what worked and didn't work. 
+summary: What worked and didn't work in the transition to a remote class
 # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 featured: no

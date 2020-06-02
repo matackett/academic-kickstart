@@ -11,7 +11,7 @@ tags:
   - rstudio
   - github
   - spring2020
-summary: This is the first in a two-part series about teaching an undergraduate regression course in Spring 2020. In this post, I describe the infrastructure for the course, which was primarily web-based even before the transition to remote learning. 
+summary: Technology-supported infrastrcutre for an undergraduate statistics course
 featured: no
 image: 
   caption: 'Caption'
