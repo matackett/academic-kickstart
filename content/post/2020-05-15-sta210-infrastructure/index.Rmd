@@ -11,10 +11,10 @@ tags:
   - rstudio
   - github
   - spring2020
-summary: Technology-supported infrastrcutre for an undergraduate statistics course
-featured: no
+summary: How I used an online-supported infrastructure for an undergraduate statistics course
+featured: yes
 image: 
-  caption: 'Caption'
+  caption: 'Photo by Sergey Zolkin on Unsplash'
   focal_point: ''
   placement: 2
   preview_only: yes
@@ -45,13 +45,13 @@ Before I talk about the infrastructure, here is a brief description of the cours
 
 Regression Analysis is a second-semester undergraduate course focused on analyzing multivariate data using regression models. In addition to learning the statistical methods, a large component of the course is learning how to use R and GitHub to conduct analyses that are reproducible and incorporate version control. A more detailed description of the course is at the top of the [course website](https://www2.stat.duke.edu/courses/Spring20/sta210.001/index.html). 
 
-In Spring 2020, there were 90 students from all years and a variety of majors. The whole class met face-to-face twice a week for lecture, and smaller labs (30 students each) met once a week. Aside from these meetings, the course was primarily managed online. As you might expect, the lectures and labs changed the most after the transition, but the rest of the course remained largely unchanged given the online supported infrastructure already put in place. I'll talk more about the changes in Part 2, but for now I'll focus on the infrastructure.
+In Spring 2020, there were 90 students from all years and a variety of majors. The whole class met face-to-face twice a week for lecture, and smaller labs (30 students each) met once a week. Aside from these meetings, the course was primarily managed online. As you might expect, the lectures and labs changed the most after the transition, but the rest of the course remained largely unchanged given the online-supported infrastructure already put in place. I'll talk more about the changes in Part 2, but for now I'll focus on the infrastructure.
 
 ## Infrastructure
 
 - [Insert a sketch of the course infrastructure]
 
-In short, the infrastructure for the course can be described as "online supported", i.e. most of the course is facilitated online and is anchored by in-person lectures and labs. I based this infrastructure on the one described in [Data Science in a Box](https://datasciencebox.org/infrastructure/), where you can find more detail about how to set up the various components described below. 
+In short, the infrastructure for the course can be described as "online-supported", i.e. most of the course is facilitated online and is anchored by in-person lectures and labs. I based this infrastructure on the one described in [Data Science in a Box](https://datasciencebox.org/infrastructure/), where you can find more detail about how to set up the various components described below. 
 
 ### Materials 
 
@@ -68,7 +68,7 @@ In short, the infrastructure for the course can be described as "online supporte
 
 <br>
 
-- <font class = "emph">RStudio</font>: Students use RStudio hosted in Docker containers maintained by the university's Office of Information Technology. [RStudio Cloud](rstudio.cloud) is a cloud-based platform provided and maintained by RStudio that is another nice server-based option. One of the primary benefits of having students use a server-based version of RStudio is they access through a web browser, so they can use RStudio on almost any device, including tablets and Chromebooks. The paper [*Infrastructure and tools for teaching computing throughout the statistical curriculum*](https://peerj.com/preprints/3181/) discusses many of the other benefits of having students used RStudio through a server (rather than local installations).
+- <font class = "emph">RStudio</font>: Students use RStudio hosted in Docker containers maintained by the university's Office of Information Technology. [RStudio Cloud](https://rstudio.cloud/) is a cloud-based platform provided and maintained by RStudio that is another nice server-based option. One of the primary benefits of having students use a server-based version of RStudio is they access through a web browser, so they can use RStudio on almost any device, including tablets and Chromebooks. The paper [*Infrastructure and tools for teaching computing throughout the statistical curriculum*](https://peerj.com/preprints/3181/) discusses many of the other benefits of having students used RStudio through a server (rather than local installations).
 
 - <font class = "emph">Gradescope</font>: Students submit their assignments on [Gradescope](https://www.gradescope.com/), an online grading and rubric platform. Not only does it make grading quicker and more consistent, but it makes it easy for students to see the feedback on their assignments. It can sync with numerous LMS, so the grades can easily be posted in the gradebook in the LMS. The talk [*AI Assisted Fair and Efficient Grading in the Statistics and Data Science Classrooms*](https://www.causeweb.org/cause/ecots/ecots20/breakouts/8) provides a good introduction to using Gradescope for statistics assignments.
 
@@ -82,5 +82,5 @@ If you're curious how all these pieces connect, the slides from the talk [*Using
 
 <br>
 
-That sums up the course infrastructure. In [Part 2](../), I'll share how the course changed when we transitioned to remote teaching. *Spoiler alert: the online supported infrastructure made the transition much smoother.*
+That sums up the course infrastructure. In [Part 2](../f2f-remote-transition), I'll share how the course changed when we transitioned to remote teaching. *Spoiler alert: the online-supported infrastructure made the transition much smoother.*
 
