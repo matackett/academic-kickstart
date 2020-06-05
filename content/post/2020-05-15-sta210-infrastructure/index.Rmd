@@ -80,5 +80,5 @@ To get an idea of how I use RStudio, GitHub, and Gradescope in a typical assignm
 
 <br>
 
-In Part 2, I'll share how the course changed when we transitioned to remote learning. *Spoiler alert: having this course infrastructure made the transiton much smoother.*
+In Part 2, I'll share how the course changed when we transitioned to remote learning. *Spoiler alert: having this course infrastructure made the transition much smoother.*
 
