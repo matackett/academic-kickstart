@@ -7,15 +7,8 @@ public/
 .Rproj.user
 
 .DS_Store
-<<<<<<< HEAD
 .Rhistory
 .RData
-=======
-
-.RData
-.Rhistory
 
 view.sh
 update_academic.sh
-
->>>>>>> preview
