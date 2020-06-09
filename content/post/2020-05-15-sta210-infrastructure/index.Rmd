@@ -1,6 +1,5 @@
 ---
 title: "From f2f to remote: Part 1 `r emo::ji('woman_teacher_medium_dark_skin_tone')`" 
-subtitle: "Infrastructure for an undergraduate statistics course"
 author: Maria Tackett
 date: "`r Sys.Date()`"
 slug: f2f-remote-infrastructure
@@ -11,10 +10,10 @@ tags:
   - rstudio
   - github
   - spring2020
-summary: How I used an online-supported infrastructure for an undergraduate statistics course
+summary: Online-supported infrastructure for an undergraduate statistics course
 featured: yes
 image: 
-  caption: 'Photo by Sergey Zolkin on Unsplash'
+  caption: ""
   focal_point: ''
   placement: 2
   preview_only: yes
@@ -49,7 +48,7 @@ In Spring 2020, there were 90 students from all years and a variety of majors. T
 
 ## Infrastructure
 
-![](course-infrastructure.jpg)
+![](featured.jpg)
 
 
 In short, the infrastructure for the course can be described as "online-supported", i.e. most of the course is facilitated online and is anchored by in-person lectures and labs. I based this infrastructure on the one described in [Data Science in a Box](https://datasciencebox.org/infrastructure/), where you can find more detail about how to set up the various components described below. 
