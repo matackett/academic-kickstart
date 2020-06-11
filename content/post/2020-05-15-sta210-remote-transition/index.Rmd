@@ -1,5 +1,5 @@
 ---
-title: "From f2f to remote: Part 2 ``r emo::ji('woman_technologist_medium_dark_skin_tone') " 
+title: "From f2f to remote: Part 2 `r emo::ji('woman_technologist_medium_dark_skin_tone')`" 
 author: Maria Tackett
 date: "`r Sys.Date()`"
 slug: f2f-remote-transition
@@ -109,10 +109,8 @@ The live lecture sessions were recorded and uploaded into the LMS, so students w
 
 Students had just begun their final group project [ADD LINK] before the transition, so I gave them the option to continue with the same project in their same groups or do something else. They overwhelmingly decided to stay in their same groups (I think because they had been with these groups since the 3rd week of the semester and had learned to work together). The project stayed largely the same, with the exception of the final presentation. Rather than present in-class, each group recorded a video presentation and uploaded it in a discussion thread in Sakai. I gave groups the option to upload their slides with a written transcript if video wasn't an viable option. Students were randomly assigned three presentations to write and post comments. I'll talk about this more in [SECTION NAME - THINGS TO KEEP WITH LINK], but in summary I really liked this format!
 
-In Part 2, I'll talk about some of the things that worked and that I plan to continue doing in the fall and other things I want to change.
+### Lessons learned
 
-**Post coming soon**
-<!--
 
 This is a blog post about going from face-to-face (f2f) to remote learning.
 
@@ -144,4 +142,3 @@ Part II: Lessons Learned (What I hope to keep / change in the fall)
     - Quality of videos on Zoom. Man they were bad. Need editing, and maybe a better way to ensure student's engage.
     - Office hours, waiting room. Use a tool like MyDigital Hand.
 - Recap from preparing to teaching: good tips: [https://preparingtoteach.org/post/recap-remote-teaching/](https://preparingtoteach.org/post/recap-remote-teaching/)[https://twitter.com/minebocek/status/1261623031757189120](https://twitter.com/minebocek/status/1261623031757189120)
--->
