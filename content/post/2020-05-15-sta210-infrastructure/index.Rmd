@@ -6,10 +6,6 @@ slug: f2f-remote-infrastructure
 categories:
 tags:
   - teaching
-  - regression
-  - rstudio
-  - github
-  - spring2020
 summary: Online-supported infrastructure for an undergraduate statistics course
 featured: yes
 image: 
