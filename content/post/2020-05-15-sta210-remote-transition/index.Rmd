@@ -67,11 +67,11 @@ Since a lot of the course infrastructure was [already online](../f2f-remote-infr
 
 As with a lot of classes, the lectures changed the most after the transition. During the f2f lecture, I mostly talked through lecture slides and had small group activities and polling questions throughout. As I thought about reorienting the lectures for Zoom, I tried to balance the desire to
 
-  `r emo::ji("white_check_mark")` continue meeting for synchronously for lecture.
+- continue meeting for synchronously for lecture.
 
-  `r emo::ji("white_check_mark")` not disadvantage students who couldn't attend the synchronous lecture.
+- not disadvantage students who couldn't attend the synchronous lecture.
 
-  `r emo::ji("white_check_mark")` make the synchronous lectures interactive (or at least as interactive as 90 people on Zoom can be).
+- make the synchronous lectures interactive (or at least as interactive as 90 people on Zoom can be).
 
 Taking these considerations into account, I landed on using a "flipped classroom" format where students watched *lecture content videos* on their own before lecture, and the *live lecture session* was used to answer questions and work through examples. I used the language *lecture content videos* and *live lecture session* instead of "asynchronous" and "synchronous", to help students more easily keep track of the new format. 
 
@@ -94,7 +94,9 @@ The live lecture sessions were recorded and uploaded to the LMS, so students who
 A few other things that were helpful during lecture: 
 
 - I made an [agenda](https://www2.stat.duke.edu/courses/Spring20/sta210.001/slides/lec-slides/live-lecture-apr01.html) for each live session. This was not only helpful for students, but it helped keep track of the new lecture structure.
-- Used an iPad + pencil and the [GoodNotes app](https://www.goodnotes.com/) as a white board. This was easier for me than the Zoom whiteboard, since I write a lot of equations. I also used this to write my welcome note
+
+- Used an iPad + pencil and the [GoodNotes app](https://www.goodnotes.com/) as a white board. This was easier for me than the Zoom whiteboard, since I write a lot of equations. I also used this to write my welcome note. 
+
 - I sent a recap email after each live lecture session that pointed students to the lecture recording, upcoming assignment deadlines, and other announcements and resources.
 
 ### Labs
@@ -121,24 +123,27 @@ Here are a few things that worked in the spring and things I want to change and 
 
 ### What worked
 
-- *Sending the survey survey*. The student survey was extremely helpful, so I could better plan the course to accommdate a variety of new learning environments.
-    
-- *Having a flipped classroom format for the lectures*. Being able to spend the lecture answering questions and working through examples was a much better use of the time than going over lecture slides. I also heard from a few students that they liked having the lecture content videos, so they could replay any content they needed to review. 
-    
-- *Using Zoom breakout rooms*. As I mentioned earlier, these were fantastic during the live lectures. It gave students an opportunity to talk with each other in small groups and really helped break the monotony of being on Zoom. 
+`r emo::ji("white_check_mark")` *Having an online-supported infrastructure.* I describe the course infrastructure in [Part 1](../f2f-remote-infrastructure). This infrastructure works well in the remote and f2f class. 
 
-- *Having students record video presentations and post questions in the discussion forum.*. Students were thoughtful in how they organized their presentation, and some groups even included creative technical elements in the videos. Because we weren't constrained by time, as we are during in-class presentations, students had more time to develop thoughtful questions that demonstrated their understanding of the course material. This format also gave every student an opportunity to share their thoughts and ask questions rather than a select few. 
+`r emo::ji("white_check_mark")` *Sending the survey*. The student survey was extremely helpful, so I could better plan the course to accommdate a variety of new learning environments.
+    
+`r emo::ji("white_check_mark")` *Having a flipped classroom format for the lectures*. Being able to spend the lecture answering questions and working through examples was a much better use of the time than going over lecture slides. I also heard from a few students that they liked having the lecture content videos, so they could replay any content they needed to review. 
+    
+`r emo::ji("white_check_mark")` *Using Zoom breakout rooms*. As I mentioned earlier, these were fantastic during the live lectures. It gave students an opportunity to talk with each other in small groups and really helped break the monotony of being on Zoom. 
+
+`r emo::ji("white_check_mark")` *Having students record video presentations and post questions in the discussion forum.* Students were thoughtful in how they organized their presentation, and some groups even included creative technical elements in the videos. Because we weren't constrained by time, as we are during in-class presentations, students had more time to develop thoughtful questions that demonstrated their understanding of the course material. This format also gave every student an opportunity to share their thoughts and ask questions rather than a select few. 
 
   In the fall, I will also ask each group to respond to a few of the questions they were asked. 
 
 
-### What needs improvement
+### What needs some work
 
-- *Building community in a large online class.* By the time we moved online in the spring, there was already a community established from the first half of the semester. That won't be the case in the fall, so I would like to figure out ways to help students connect remotely. 
+`r emo::ji("hammer_and_wrench")` *Building community in a large online class.* By the time we moved online in the spring, there was already a community established from the first half of the semester. That won't be the case in the fall, so I would like to figure out ways to help students connect remotely. 
 
-    - Help students manage teamwork remotely
-    - Quality of videos on Zoom. Man they were bad. Need editing, and maybe a better way to ensure student's engage.
-    - Office hours, waiting room. Use a tool like MyDigital Hand.
-    
-    
-- Recap from preparing to teaching: good tips: [https://preparingtoteach.org/post/recap-remote-teaching/](https://preparingtoteach.org/post/recap-remote-teaching/)[https://twitter.com/minebocek/status/1261623031757189120](https://twitter.com/minebocek/status/1261623031757189120)
+`r emo::ji("hammer_and_wrench")` *Helping students manage teamwork remotely*. Teams had been working together for a few weeks by the time we moved remote in the spring, so they were generally able to just adapt their workflow for the new environment. Teams in the fall will do all work remotely and will likely never meet f2f, so they will need additional help figuring out group workflow and dynamics. 
+
+`r emo::ji("hammer_and_wrench")` *Managing office hours.* I used the waiting room feature in Zoom, so I could work with students one at a time. This sometimes resulted in students waiting a while to receive help when they actually had the same questions as the student I was working with. In the fall, I may try a tool such as [My Digital Hand](https://mydigitalhand.org/), where students indicate what they want to discuss in office hours. This way, I can help groups of students who have the same questions, similar to how I would in f2f office hours. 
+
+<br>
+
+I would love to hear what ideas you have for teaching online or in a hybrid format, especially for large classes. In the meantime, I'll leave you with some [remote teaching tips](https://preparingtoteach.org/post/recap-remote-teaching/]) from Preparing to Teach.
