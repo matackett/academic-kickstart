@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Introduction 
 
-- Part 1, I talked about the online-supported infrastructure for the class.
+- [Part 1](../f2f-remote-infrastructure), I talked about the online-supported infrastructure for the class.
 - In this part I discuss the transition to remote learning and what worked / didn't work. 
 - I'm teaching remotely in the fall, so I my goal is to start with what I did in the spring and improve upon it for the fall. 
 
@@ -59,68 +59,83 @@ Penn State has an established [online statistics program](https://online.stat.ps
 
 Using these resources gave me enough ideas and strategies that I felt ~~completely ready~~ less terrified to teach remotely.
 
-Since a lot of the course infrastructure was already online, I focused my efforts on adapting the f2f components - lectures, labs, exams, and final presentations. I also made changes to the course policies, the most substantial being around late work, to give students more flexibility but still help them keep up with the course material. The changes to course policies are in the [Remote Learning Updates](https://www2.stat.duke.edu/courses/Spring20/sta210.001/covid-19-updates.html).
+Since a lot of the course infrastructure was [already online](../f2f-remote-infrastructure), I focused a majority of my effort on adapting the f2f components - lectures, labs, exams, and final presentations. I also made changes to the course policies, the most substantial being around late work, to give students more flexibility but still help them keep up with the course material. The changes to course policies are in the [Remote Learning Updates](https://www2.stat.duke.edu/courses/Spring20/sta210.001/covid-19-updates.html).
 
 
 
 ### Lectures
 
-As with a lot of classes, the biggest change I made in the transition to remote learning is how I did lectures. The biggest change to the semester was the way I conducted lectures. In the f2f class, I did active lectures with small group activities and polling questions throughout. As I thought about reorienting the lectures for Zoom, I tried to balance the desire to
+As with a lot of classes, the lectures changed the most after the transition. During the f2f lecture, I mostly talked through lecture slides and had small group activities and polling questions throughout. As I thought about reorienting the lectures for Zoom, I tried to balance the desire to
 
-`r emo::ji("white_check_mark")` continue meeting for synchronously for lecture.
+  `r emo::ji("white_check_mark")` continue meeting for synchronously for lecture.
 
-`r emo::ji("white_check_mark")` not disadvantage students who couldn't attend the synchronous lecture.
+  `r emo::ji("white_check_mark")` not disadvantage students who couldn't attend the synchronous lecture.
 
-`r emo::ji("white_check_mark")` make the synchronous lectures interactive (or at least as interactive as 90 people on Zoom can be).
+  `r emo::ji("white_check_mark")` make the synchronous lectures interactive (or at least as interactive as 90 people on Zoom can be).
 
-Taking these considerations into account, I landed on using a flipped classrom where students watched *lecture content videos* and we answered questions and worked on examples during the *live lecture session*. I used this language (instead of "asychronous" vs. "synchronous"), to help students more easily keep track of the new format.
+Taking these considerations into account, I landed on using a "flipped classroom" format where students watched *lecture content videos* on their own before lecture, and the *live lecture session* was used to answer questions and work through examples. I used the language *lecture content videos* and *live lecture session* instead of "asynchronous" and "synchronous", to help students more easily keep track of the new format. 
 
 ### Lecture content videos (asynchronous)
 
-Before each "live" lecture, students watched pre-recorded videos covering the content. In these videos, I talked through the lecture slides and included periodic quesitions to mimic the short activities I typically did in f2f lectures. In the videos, I asked students to "Pause the video, write down your response to the quesitons, and we'll discuss them during the live lecture session." I also told students to write down any questions they had about the content in the videos, and we would discuss them in the live lecture session.
+Before each live lecture session, students watched pre-recorded videos covering the content. In these videos, I talked over lecture slides and included periodic questions to help students think about what they just heard. I also used these questions as the basis for the live lecture session. Since I just used Zoom to record the lectures with no editing software, I told students to "pause the video, write down your response to the questions, and we'll discuss them during the live lecture session." I also encouraged students to write down any questions they had about the content from the videos, so we could discuss them during the live lecture session.
 
-The pre-recorded lectures were posted about two days in advance in a discussion forum in Sakai. I used the discussion forum, so students had the opportunity to post any questions directly under the video. This was most important for students unable to attend the live lecture session, so they could still get answers to their questions. This also provided an opportunity for students to remain engaged Students were told to either write their questions down to ask during the "Live Lecture Session" or to reply to the thread with their questions if they couldn't attend be live for the lecture. I checked the discussion thread before each class, so I could make sure to address the posted questions in the live lecture.
+The pre-recorded lectures were posted about two days in advance in a discussion forum in Sakai, the learning management system (LMS). I used the discussion forum, so students unable to attend the lecture session could post their questions directly under the video. I checked the discussion thread before each live lecture session, so I could address the questions posted in the discussion during the live lecture session.
 
 ### Live lecture session (synchronous)
 
-Zoom during the scheduled lecture time. I made an agenda for each live lecture [ ADD LINK], so students would know what to expect. I typically started with announcements and asking if there any questions that were posted in the discussion thread or that students posted in the Zoom chat or asked verbally after raising their hand. Some quesitons I answered right away; others I jotted down to come back to later since I knew there'd be a more natural place to answer them.
+The live lecture sessions were held using Zoom. I started the Zoom session about 5 minutes before it started with a screen saying "Welcome to STA 210" and the .Rmd file we were going to go over during the session. Once class started, I answered questions about the content videos (including those from the discussion thread). Students in the live session could post their questions in the chat use Zoom's raise hand feature and I would call on them. I answered most questions right away; others I jotted down to address later, since I knew the material would come up as we talked through examples. 
 
-```
-After taking questions,  we basically went through the remaining time walking through an analysis covering the topic. Students could use an Rmd file or rendered HTML to follow-along. I usually talked about the code and more practical elements, since students got the basic terminology and definitions from the pre-recorded lecture. During most live lectures, I randomly split students into breakout rooms to talk about the discussion questions from the videos. 
+The remainder of the time was going through an example that applied the concepts from the lecture videos. I used the same data that was presented in the lecture videos, so students were already familiar with the data set and analysis questions. I focused on the code and the practical considerations when applying the concpets in an anaylysis, since students got the basic terminology and definitions from the pre-recorded lecture videos. As we went through the example, students were randomly assigned to breakout rooms to discuss the questions that were originally presented in the lecture videos. 
 
-I popped into a few break out rooms during the discussions (students were told beforehand this would happen), and it was really great. A lot of students had their video on in the breakout rooms and it just made everything feel more energetic than in the larger setting. Even as students came back to the main room, a few would keep their video on. I randomly selected a breakout room to respond to the class. 
+I visited a few break out rooms during the discussions (students were told beforehand this would happen), and it was definitely the best part of the live lecture sessions. A lot of students turned their video on in the breakout rooms, which made everything feel more energetic than in the larger setting where most, if not all, students had their video off. Even as students came back to the large discussion, the environment felt more lively than before the first discussion. I typically called on students from one or two of the rooms, and one student from each room would share their conclusions with the class.
 
-Used an iPad with the pencil [WHAT"S THIS CALLED?] and the Goodnotes app as the white board. This worked better for me than Zoom white board, since I often needed to write equations. I also used it write Welcome and point students to the day's notes as they entered the class. I typically started the Zoom live lecture session about 5 minutes early. 
+The live lecture sessions were recorded and uploaded to the LMS, so students who were unable to attend live still had access to the content. 
 
-The live lecture sessions were recorded and uploaded into the LMS, so students who were unable to attend live could still access the content. 
+A few other things that were helpful during lecture: 
 
-```
-
-- daily recap email
+- I made an [agenda](https://www2.stat.duke.edu/courses/Spring20/sta210.001/slides/lec-slides/live-lecture-apr01.html) for each live session. This was not only helpful for students, but it helped keep track of the new lecture structure.
+- Used an iPad + pencil and the [GoodNotes app](https://www.goodnotes.com/) as a white board. This was easier for me than the Zoom whiteboard, since I write a lot of equations. I also used this to write my welcome note
+- I sent a recap email after each live lecture session that pointed students to the lecture recording, upcoming assignment deadlines, and other announcements and resources.
 
 ### Labs
 
-### Exams
+The structure of labs remained similar to the structure before the transition. The lab TA did a brief introduction to the day's lab, then students worked with their groups using the Zoom breakout rooms. The lab TAs visited each breakout at some point during the lab session. 
 
-- Midterm 2: I give two in-class paper midterms during the semester where students are allowed to bring one page of handwritten notes. Given the exams would be done remotely, I opted for an open-note, open-book exam. I tried to keep the format as similar to the first exam as possible, so students typed their responses in a Word document of the exam, saved it as a PDF and uploaded their resposes to the LMS. The exam was written to be taken within 75 minutes, but students had 2 hours to take the exam to provide flexibility for any computing issues.
+Students were already used to using GitHub for collaboration, so they completed lab assignments using a similar workflow as before.
+
+### Exam
+
+I typically give two in-class exam where students are allowed to bring one page of handwritten notes. Given the exams would be completed remotely, I opted for an open-note, open-book exam. More specifically, students could use any resource except for consulting to other people. I tried to keep the format as similar to the first exam as possible, so students downloaded a Word document of the exam from the LMS, typed their responses in the document under each question, saved it as a PDF, and uploaded their responses to the LMS. The exam was designed to be be completed within 75 minutes (the length of a class period), but students were allotted for the exam to provide flexibility in case of computing issues.
+
+A practice exam was given to students using the same format, so they had a week to practice and ask questions before the actual exam.
 
 ### Video presentations
 
-Students had just begun their final group project [ADD LINK] before the transition, so I gave them the option to continue with the same project in their same groups or do something else. They overwhelmingly decided to stay in their same groups (I think because they had been with these groups since the 3rd week of the semester and had learned to work together). The project stayed largely the same, with the exception of the final presentation. Rather than present in-class, each group recorded a video presentation and uploaded it in a discussion thread in Sakai. I gave groups the option to upload their slides with a written transcript if video wasn't an viable option. Students were randomly assigned three presentations to write and post comments. I'll talk about this more in [SECTION NAME - THINGS TO KEEP WITH LINK], but in summary I really liked this format!
+Students had started the [final project](https://www2.stat.duke.edu/courses/Spring20/sta210.001/project/project.html) right before the transition to remote learning, so I gave them the option to continue with the same project in their same groups or do something else. They overwhelmingly decided to work on the original project in the same groups. (This is likely because they had been working in these groups since the 3rd week of the semester and had learned to work together). 
+
+The project remained mostly the same, with the exception of the final presentation. Rather than present in class, each group recorded a video presentation and uploaded it to a discussion thread in the LMS. If groups were unable to make a video, they had the option to upload their slides along with a script of what they would say in a presentation Students were randomly assigned three presentations to watch, and they were required to post a relevant and thoughtful question about the presentation. I'll talk about this more in the next section, but in summary I really liked this format!
 
 ## Lessons learned
 
+Here are a few things that worked in the spring and things I want to change and improve in the Fall. 
+
 ### What worked
-    - Gave survey to students [link to survey questions - google doc] to learn more about their learning circumstance. Survey inspired by a colleague who gave a similar one.
-    - Flipped classroom. Have always wanted to do this but have never had the guts / time. Now I was forced to record videos and figure it out.
-    - Ancedotal evidence from students that they liked this format.
-    - Video presentations for the final project & discussion board. Rich conversation and enjoyed the creativity.
 
-### What needs to go back to the drawing board
+- *Sending the survey survey*. The student survey was extremely helpful, so I could better plan the course to accommdate a variety of new learning environments.
+    
+- *Having a flipped classroom format for the lectures*. Being able to spend the lecture answering questions and working through examples was a much better use of the time than going over lecture slides. I also heard from a few students that they liked having the lecture content videos, so they could replay any content they needed to review. 
+    
+- *Using Zoom breakout rooms*. As I mentioned earlier, these were fantastic during the live lectures. It gave students an opportunity to talk with each other in small groups and really helped break the monotony of being on Zoom. 
 
-- What I need to figure out for the fall
-    - How to engage a large class on Zoom. Even with about 1/3 to half of my class being live, it is still difficult to engage that many students on Zoom. [Link to learning innovation's site on active learning]. Help foster more connection between students in the class, since they miss the time before and after class where they can causally talk with one another.
-    - Give students a topic (doesn't have to be related to the content) and give them 5 minutes at the beginning of class to discuss it with each other in break out rooms. The instructor doesn't go in any of these rooms, so students can share freely with one another.
+- *Having students record video presentations and post questions in the discussion forum.*. Students were thoughtful in how they organized their presentation, and some groups even included creative technical elements in the videos. Because we weren't constrained by time, as we are during in-class presentations, students had more time to develop thoughtful questions that demonstrated their understanding of the course material. This format also gave every student an opportunity to share their thoughts and ask questions rather than a select few. 
+
+  In the fall, I will also ask each group to respond to a few of the questions they were asked. 
+
+
+### What needs improvement
+
+- *Building community in a large online class.* By the time we moved online in the spring, there was already a community established from the first half of the semester. That won't be the case in the fall, so I would like to figure out ways to help students connect remotely. 
+
     - Help students manage teamwork remotely
     - Quality of videos on Zoom. Man they were bad. Need editing, and maybe a better way to ensure student's engage.
     - Office hours, waiting room. Use a tool like MyDigital Hand.
