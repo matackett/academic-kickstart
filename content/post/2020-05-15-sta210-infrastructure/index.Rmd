@@ -1,15 +1,12 @@
 ---
 title: "From f2f to remote: Part 1 `r emo::ji('woman_teacher_medium_dark_skin_tone')`" 
+subtitle: "Online-supported infrastructure for an undergraduate statistics course"
 author: Maria Tackett
-date: "`r Sys.Date()`"
+date: 2020-06-09
 slug: f2f-remote-infrastructure
 categories:
 tags:
   - teaching
-  - regression
-  - rstudio
-  - github
-  - spring2020
 summary: Online-supported infrastructure for an undergraduate statistics course
 featured: yes
 image: 
@@ -36,7 +33,7 @@ Spring 2020 was quite the semester (to say the least), so I thought it'd be wort
 
 `r emo::ji("woman_technologist_medium_dark_skin_tone")` Part 2: What changed in the transition to a remote class, including what worked and what didn't work. 
 
-*Note: Like many others, I'm using the term "remote" teaching/learning instead of "online" to differentiate what happened in Spring 2020 from the well-designed online courses that take months of thoughtful and careful planning. 
+*Note: Like many others, I'm using the term "remote" teaching/learning instead of "online" to differentiate what happened in Spring 2020 from the well-designed online courses that take months of thoughtful and careful planning.* 
 
 ## The Course: Regression Analysis {#sta210}
 
