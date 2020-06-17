@@ -1,12 +1,13 @@
 ---
 title: "From f2f to remote: Part 2 `r emo::ji('woman_technologist_medium_dark_skin_tone')`" 
+subtitle: "Transition to remote learning"
 author: Maria Tackett
 date: "`r Sys.Date()`"
 slug: f2f-remote-transition
 categories:
 tags:
   - teaching
-summary: What changed in the transition to remote learning. 
+summary: Transition to remote learning
 # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 featured: yes
@@ -21,14 +22,11 @@ image:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+This is the second of a two-part series about my undergraduate regression analysis course in Spring 2020. In [Part 1](../f2f-remote-infrastructure), I described the infrastructure for the course, and in this post, I'll discuss what changed when we transitioned to remote learning mid-semester. 
 
-Introduction 
+Because a lot of the course infrastructure was already online (e.g. materials, assignments, etc.), the major changes to the course were in the face-to-face (f2f) elements, such as the lectures and labs. These f2f elements are the focus for this post. 
 
-- [Part 1](../f2f-remote-infrastructure), I talked about the online-supported infrastructure for the class.
-- In this part I discuss the transition to remote learning and what worked / didn't work. 
-- I'm teaching remotely in the fall, so I my goal is to start with what I did in the spring and improve upon it for the fall. 
-
-## Preparing for remote learning {#preparation}
+## Preparing to go remote {#preparation}
 
 ### Student Survey
 
