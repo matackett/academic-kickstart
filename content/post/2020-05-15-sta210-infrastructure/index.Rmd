@@ -1,5 +1,6 @@
 ---
 title: "From f2f to remote: Part 1 `r emo::ji('woman_teacher_medium_dark_skin_tone')`" 
+subtitle: "Online-supported infrastructure for an undergraduate statistics course"
 author: Maria Tackett
 date: "`r Sys.Date()`"
 slug: f2f-remote-infrastructure
